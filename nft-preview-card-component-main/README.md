@@ -29,10 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop preview](/screenshot/desktop-preview.png)
+![desktop preview](./screenshot/desktop-preview.png)
 fig 1. Result viewed from desktop
 
-![mobile preview](/screenshot/mobile-preview.png)
+![mobile preview](./screenshot/mobile-preview.png)
 fig 2. Result viewed from small screen
 
 ### Links
