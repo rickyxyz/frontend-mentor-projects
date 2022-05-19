@@ -37,7 +37,11 @@ fig 2. Result viewed from small screen
 
 ### Links
 
+<<<<<<< HEAD
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/nft-preview-card-component-main)
+=======
+- Solution URL: [Link to solution URL](https://github.com/rickyxyz/frontendmentor-projects/tree/main/nft-preview-card-component-main)
+>>>>>>> main
 - Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/nft-preview-card-component-main/index.html)
 
 ## My process
