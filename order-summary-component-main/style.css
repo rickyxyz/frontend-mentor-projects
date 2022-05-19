@@ -50,6 +50,11 @@ a {
     color: var(--bright-blue);
 }
 
+a:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
 .card {
     max-width: 380px;
 
@@ -138,6 +143,8 @@ a {
     border-radius: 10px;
     border: none;
     font-weight: 900;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .button_primary {
@@ -146,9 +153,18 @@ a {
     box-shadow: 0 13px 30px -10px var(--bright-blue-shadow);
 }
 
+.button_primary:hover {
+    opacity: 0.7;
+}
+
 .button_transparent {
     background-color: transparent;
     color: var(--desaturated-blue);
+}
+
+.button_transparent:hover {
+    color: var(--dark-blue);
+    opacity: 0.9;
 }
 
 footer {
