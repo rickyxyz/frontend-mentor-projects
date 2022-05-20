@@ -50,7 +50,7 @@ a {
     color: var(--bright-blue);
 }
 
-a:hover {
+a:hover, a:active {
     opacity: 0.7;
     transition: all 0.3s ease;
 }
@@ -153,7 +153,7 @@ a:hover {
     box-shadow: 0 13px 30px -10px var(--bright-blue-shadow);
 }
 
-.button_primary:hover {
+.button_primary:hover, .button_primary:active {
     opacity: 0.7;
 }
 
@@ -162,7 +162,7 @@ a:hover {
     color: var(--desaturated-blue);
 }
 
-.button_transparent:hover {
+.button_transparent:hover, .button_transparent:active {
     color: var(--dark-blue);
     opacity: 0.9;
 }
