@@ -36,7 +36,7 @@ Large screen (1440px x 900px)
 ![screenshot of active state](./screenshot/active-screenshot.png)  
 Active state 
 
-![screenshot of solution on small screen](./screenshot/small-screen-screenshot.png | height=400)  
+![screenshot of solution on small screen](./screenshot/small-screen-screenshot.png)  
 Small screen (375px x 667px)  
 
 ### Links
