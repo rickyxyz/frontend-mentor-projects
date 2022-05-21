@@ -8,6 +8,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
   - [Newbie](#newbie)
     - [NFT Preview Card Component Main](#nft-preview-card-component-main)
     - [QR Code Component Main](#qr-code-component-main)
+    - [Order Summary Component Main](#order-summary-component-main)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -17,3 +18,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### QR Code Component Main
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/qr-code-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/qr-code-component-main/index.html)
+
+### Order Summary Component Main
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/order-summary-component-main)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/order-summary-component-main/index.html)
