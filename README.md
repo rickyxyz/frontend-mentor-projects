@@ -25,5 +25,5 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/order-summary-component-main/index.html)
 
 ### Stats Preview Card Component
-- [Link to solution repository](https://github.com/rickyxyz/stats-preview-card-component-main/tree/main/order-summary-component-main)
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/stats-preview-card-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/stats-preview-card-component-main/index.html)
