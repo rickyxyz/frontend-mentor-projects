@@ -14,7 +14,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -28,7 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![solution on desktop](./screenshot/stats-preview-card-component-desktop.png)
+
+![solution on mobile](./screenshot/stats-preview-card-component-mobile.png)
+
+![solution in size between](./screenshot/stats-preview-card-component-between.png)
 
 ### Links
 
@@ -42,61 +45,55 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Two major issues surfaced during development.
 
-To see how you can add code snippets, see below:
+The simpler issue is to give the image a purple color overlay. My first idea is to use CSS filter to obtain the result, however none of the filter combinations that I tried came out right. So, instead I used a pseudo element with slightly transparent background-color to overlay the image.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.card__image {
+    ...
+    /* one of the filter combination I tried */
+    filter: sepia(100%) hue-rotate(240deg) saturate(300%) brightness(0.6);
+    ...
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+```css
+/* pseudo-element I used to overlay the image */
+.card__image::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--filter-purple);
+}
+```
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+The other issue I faced is how to scale the text and the image, so it will come out right on most device sizes. The source of this issue is the text will get clipped by the image if the screen width is not long enough.
+
+![screenshot of text getting clipped by image](./screenshot/stats-preview-card-component-issue-2.png)
+
+The simplest solution I found is to just to change at what size the layout changes from desktop to mobile. This way the layout will switch to mobile layout when the text container cannot show the whole text content, in this case I set the layout to change at 1010px width.
+
+```css
+@media screen and (max-width: 1010px) {
+    /* switch to mobile layout */
+    ...
+}
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Until the end of this challenge, I still have not figured out how to take care of the text getting clipped by image problem. Additionally, because of my approach to the issue, on some screen the result does not look good.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS Tricks Filter](https://css-tricks.com/almanac/properties/f/filter/) - This article showed me a good example of the filter effects.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

@@ -106,7 +106,7 @@ h1 > span {
     background-color: var(--filter-purple);
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1010px) {
     main {
         margin: 1rem 0;
         flex-direction: column;
