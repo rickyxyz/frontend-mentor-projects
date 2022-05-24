@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 
-/* font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif; */
-
 :root {
     /* primary colors */
     --bright-orange: hsl(31, 77%, 52%);
@@ -43,7 +40,6 @@ h1 {
 
 p {
     color: var(--transparent-white);
-    /* color: black; */
 }
 
 button {
@@ -65,14 +61,11 @@ button {
 }
 
 .card__section {
+    max-height: 100%;
     width: 34%;
     display: flex;
     flex-direction: column;
-}
-
-.card__section > img {
-    height: 40px;
-    width: 65px;
+    padding: 5%;
 }
 
 .card > .card__section:nth-child(1) {
@@ -87,7 +80,29 @@ button {
     background-color: var(--very-dark-cyan);
 }
 
-@media screen and (max-width: 800px){
+.card__section > img {
+    height: 40px;
+    width: 65px;
+}
+
+.card__section > h1 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+    flex-grow: 1;
+}
+
+.card__section > p {
+    line-height: 1.6rem;
+    flex-grow: 2;
+}
+
+.card__section > button {
+    height: 45px;
+    width: 145px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 900px){
     body {
         padding-top: 5.5rem;
     }
@@ -100,25 +115,12 @@ button {
     .card__section {
         min-width: 100%;
         min-height: 441px;
-        
-        padding: 15%;
+        padding: min(50px, 15%);
         align-items: flex-start;
     }
 
-    .card__section > h1 {
-        font-size: 2.5rem;
-        margin: 15% 0 10% 0;
-    }
-
-    .card__section > p {
-        line-height: 1.6rem;
+    .card__section p {
         flex-grow: 1;
-    }
-
-    .card__section > button {
-        height: 45px;
-        min-width: 145px;
-        border-radius: 25px;
     }
 }
 
