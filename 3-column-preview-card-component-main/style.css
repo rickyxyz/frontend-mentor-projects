@@ -134,8 +134,6 @@ button:hover, button:active{
 }
 
 .attribution {
-    visibility: hidden;
-
     font-size: 11px;
     text-align: center;
 }
