@@ -10,6 +10,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [QR Code Component Main](#qr-code-component-main)
     - [Order Summary Component Main](#order-summary-component-main)
     - [Stats Preview Card Component](#stats-preview-card-component)
+    - [3-column Preview Card Component](#3-column-preview-card-component)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -27,3 +28,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### Stats Preview Card Component
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/stats-preview-card-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/stats-preview-card-component-main/index.html)
+
+### 3-column Preview Card Component
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/3-column-preview-card-component-main)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/3-column-preview-card-component-main/index.html)
