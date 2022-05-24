@@ -48,6 +48,14 @@ button {
     border: none;
     background-color: var(--very-light-gray);
     mix-blend-mode: screen;
+    transition: all 0.3s;
+}
+
+button:hover, button:active{
+    background-color: transparent;
+    mix-blend-mode: normal;
+    color: var(--very-light-gray);
+    border: 2px solid var(--very-light-gray);
 }
 
 .card {
