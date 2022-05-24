@@ -87,13 +87,14 @@ button {
 
 .card__section > h1 {
     font-size: 2.5rem;
-    margin-top: 50px;
+    margin-top: min(50px, 15%);
     flex-grow: 1;
+    max-height: 5rem;
 }
 
 .card__section > p {
     line-height: 1.6rem;
-    flex-grow: 2;
+    flex-grow: 3;
 }
 
 .card__section > button {
