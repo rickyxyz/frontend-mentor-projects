@@ -11,6 +11,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [Order Summary Component Main](#order-summary-component-main)
     - [Stats Preview Card Component](#stats-preview-card-component)
     - [3-column Preview Card Component](#3-column-preview-card-component)
+    - [Profile Card Component Main](#profile-card-component-main)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -32,3 +33,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### 3-column Preview Card Component
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/3-column-preview-card-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/3-column-preview-card-component-main/index.html)
+
+### Profile Card Component Main
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/profile-card-component-main)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/profile-card-component-main/index.html)
