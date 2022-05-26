@@ -86,7 +86,7 @@ span {
 }
 
 .stats-group {
-    border-top: 1px solid var(--dark-gray);
+    border-top: 1px solid #ededed;
     width: 100%;
     display: flex;
     flex-grow: 1;
@@ -98,6 +98,11 @@ span {
 .stats-group__item {
     width: 33%;
     text-align: center;
+}
+
+.stats-group__item > span {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
 }
 
 .attribution {
