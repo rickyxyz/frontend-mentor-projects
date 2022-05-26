@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+    /* primary colors */
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    /* neutral colors */
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg"), var(--dark-cyan);
+    background-repeat: no-repeat;
+    background-position: bottom calc(50vh - 5vw) right calc(50vw + 8%), top calc(40vh + 6vw) left calc(50vw + 8%);
+    color: var(--dark-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: var(--very-dark-desaturated-blue);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+span {
+    font-size: 0.9rem;
+}
+
+.card {
+    width: 22rem;
+    height: 23.4rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 15px;
+
+    box-shadow: 0 25px 90px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-banner {
+    display: flex;
+    background: url("./images/bg-pattern-card.svg");
+    height: 140px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.card-content__image > img{
+    border-radius: 50%;
+    background-color: #FFF;
+    padding: 5px;
+    margin-top: -3rem;
+}
+
+.card-content__profile {
+    text-align: center;
+    padding: 0.6rem;
+    flex-grow: 0.5;
+}
+
+.card-content__profile-top {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+}
+
+.stats-group {
+    border-top: 1px solid var(--dark-gray);
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1.7rem 0 2rem;
+}
+
+.stats-group__item {
+    width: 33%;
+    text-align: center;
+}
+
+.attribution {
+    visibility: hidden;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
