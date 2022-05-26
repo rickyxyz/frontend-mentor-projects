@@ -40,6 +40,10 @@ span {
     font-size: 0.9rem;
 }
 
+ul {
+    list-style: none;
+}
+
 .card {
     width: 22rem;
     height: 23.4rem;
