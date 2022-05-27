@@ -25,6 +25,52 @@ body {
 
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+main {
+    padding: 8% 11.5%;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    gap: 4.4rem;
+}
+
+.container__top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.headings > h1 {
+    width: 80%;
+    font-size: 3.5rem;
+    letter-spacing: -2.2px;
+    line-height: 49px;
+    font-weight: 700;
+}
+
+.headings > p {
+    width: 80%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1.6rem;
+    line-height: 26px;
+}
+
+.ratings {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr;
+}
+
+.container__bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 @media screen and (max-width: 376px) {
