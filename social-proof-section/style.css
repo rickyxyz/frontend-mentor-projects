@@ -9,8 +9,6 @@
     --dark-grayish-magenta: hsl(303, 10%, 53%);
     --light-grayish-magenta: hsl(300, 24%, 96%);
     --white: hsl(0, 0%, 100%);
-
-    font-size: 15px;
 }
 
 * {
@@ -20,11 +18,106 @@
 }
 
 body {
+    font-size: 15px;
     min-height: 100vh;
-    background: url("./images/bg-pattern-top-desktop.svg"),
-        url("./images/bg-pattern-bottom-desktop.svg"), var(--white);
+    background: url("./images/bg-pattern-top-mobile.svg"),
+        url("./images/bg-pattern-bottom-mobile.svg"), var(--white);
     background-repeat: no-repeat;
     background-position: top 0 left 0, bottom 0 right 0;
+    font-family: 'League Spartan', sans-serif;
+    padding: 20% 1.3rem;
+}
+
+h1 {
+    color: var(--very-dark-magenta);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+    letter-spacing: -0.1px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+blockquote {
+    font-weight: 700;
+    line-height: 1.3rem;
+}
+
+.container {
+    display: grid;
+    gap: 5.3vh;
+}
+
+.container__top-left {
+    text-align: center;
+    color: var(--dark-grayish-magenta);
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.rating-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.rating-item {
+    color: var(--very-dark-magenta);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    background-color: var(--light-grayish-magenta);
+    border-radius: 10px;
+    padding: 1rem 0;
+}
+
+.container__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.card {
+    background-color: var(--very-dark-magenta);
+    border-radius: 10px;
+    color: var(--white);
+    padding: 2.5rem 2.3rem 2.1rem 2.3rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.card h1 {
+    max-height: 100%;
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.card__profile {
+    display: grid;
+    grid-template: 20px 20px / 40px 1fr;
+    gap: 5px 20px;
+    align-items: center;
+}
+
+.card__profile > img {
+    grid-row: span 2;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.card__profile span {
+    color: var(--soft-pink);
 }
 
 .attribution {
@@ -34,4 +127,86 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 600px){
+    body {
+        background: url("./images/bg-pattern-top-desktop.svg"),
+            url("./images/bg-pattern-bottom-desktop.svg"), var(--white);
+        background-repeat: no-repeat;
+        background-position: top 0 left 0, bottom 0 right 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        gap: 13% 3%;
+        display: grid;
+        grid-template: 30vh 40vh / repeat(2, 1fr);
+        grid-auto-flow: row;
+        align-content: space-between;
+        align-items: center;
+        justify-items: start;
+        max-width: 1110px;
+    }
+
+    .container__top-left {
+        max-width: 80%;
+        text-align: left;
+        gap: 3vh;
+    }
+
+    .container__top-left h1 {
+        font-size: 3.5rem;
+        line-height: 3rem;
+        letter-spacing: 1px;
+        letter-spacing: -2px;
+    }
+
+    .container__top-right {
+        padding-top: 1rem;
+        width: 100%;
+    }
+
+    .rating-item {
+        max-width: 82%;
+        grid-template: 1fr / 4fr 6fr;
+        align-items: center;
+    }
+
+    .rating-item > p {
+        justify-self: start;
+    }
+
+    .rating-item:nth-child(2) {
+        margin-left: 9%;
+    }
+
+    .rating-item:nth-child(3) {
+        margin-left: 18%;
+    }
+
+    .container__bottom {
+        grid-column: 1 / span 2;
+
+        display: grid;
+        grid-auto-flow: column;
+        grid-template: 1fr / repeat(3, 1fr);
+        gap: 1.8rem;
+        align-self: start;
+    }
+
+    .card {
+        max-height: 235px;
+    }
+
+    .card:nth-child(2) {
+        margin-top: 5%;
+    }
+
+    .card:nth-child(3) {
+        margin-top: 10%;
+    }
 }
