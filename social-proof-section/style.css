@@ -129,7 +129,7 @@ blockquote {
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 1000px){
     body {
         background: url("./images/bg-pattern-top-desktop.svg"),
             url("./images/bg-pattern-bottom-desktop.svg"), var(--white);
