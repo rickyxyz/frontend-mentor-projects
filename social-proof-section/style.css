@@ -47,8 +47,8 @@ ul {
 }
 
 blockquote {
-    font-weight: 700;
-    line-height: 1.3rem;
+    font-weight: 500;
+    line-height: 1.4rem;
 }
 
 .container {
@@ -62,6 +62,10 @@ blockquote {
     display: flex;
     flex-direction: column;
     gap: 3vh;
+}
+
+.container__top-left p {
+    font-weight: 500;
 }
 
 .rating-group {
