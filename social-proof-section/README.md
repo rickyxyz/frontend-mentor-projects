@@ -64,5 +64,5 @@ Firstly, I would like to be better at CSS grids. I don't know how many times I n
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io
+- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)
