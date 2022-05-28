@@ -12,6 +12,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [Stats Preview Card Component](#stats-preview-card-component)
     - [3-column Preview Card Component](#3-column-preview-card-component)
     - [Profile Card Component Main](#profile-card-component-main)
+    - [Social Proof Section](#social-proof-section)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -37,3 +38,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### Profile Card Component Main
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/profile-card-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/profile-card-component-main/index.html)
+
+### Social Proof Section
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/social-proof-section)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/social-proof-section/index.html)

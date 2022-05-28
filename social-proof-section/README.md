@@ -33,7 +33,7 @@ result on mobile (below 1000px in width)
 
 ### Links
 
-- Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/social-proof-section )
+- Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/social-proof-section)
 - Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/social-proof-section/index.html)
 
 ## My process
