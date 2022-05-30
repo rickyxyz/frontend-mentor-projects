@@ -45,5 +45,5 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/social-proof-section/index.html)
 
 ### Four Card Feature Section
-- Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/four-card-feature-section-master)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/four-card-feature-section-master/index.html)
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/four-card-feature-section-master)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/four-card-feature-section-master/index.html)
