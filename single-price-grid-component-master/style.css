@@ -129,6 +129,7 @@ h2 {
     font-weight: 600;
     font-size: 0.9rem;
     transition: all 0.3s;
+    border: 2px solid var(--bright-yellow);
 }
 
 .signup-button:hover, .signup-button:active {
