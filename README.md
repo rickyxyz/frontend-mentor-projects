@@ -14,6 +14,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [Profile Card Component Main](#profile-card-component-main)
     - [Social Proof Section](#social-proof-section)
     - [Four Card Feature Section](#four-card-feature-section)
+    - [Single Price Grid Component](#single-price-grid-component)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -47,3 +48,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### Four Card Feature Section
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/four-card-feature-section-master)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/four-card-feature-section-master/index.html)
+
+### Single Price Grid Component
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/single-price-grid-component-master)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/single-price-grid-component-master/index.html)
