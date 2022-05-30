@@ -35,6 +35,7 @@ body {
     color: var(--white);
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -141,8 +142,10 @@ h2 {
 }
 
 .attribution {
+    opacity: 0.1;
     font-size: 11px;
     text-align: center;
+    color: #000;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
