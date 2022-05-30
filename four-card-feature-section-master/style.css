@@ -60,6 +60,8 @@ header p {
 }
 
 .wrapper {
+    justify-content: center;
+    justify-items: center;
     display: grid;
     gap: 3.6vh;
 }
@@ -93,7 +95,8 @@ header p {
 [class^="card"] {
     background-color: #fff;
     border-radius: 10px;
-    max-height: 222px;
+    height: 222px;
+    width: clamp(350px, 50%, 100vw);
     position: relative;
     overflow: hidden;
     padding: 1.8rem 1.9rem;
@@ -134,7 +137,7 @@ header p {
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     body {
         min-height: 100vh;
         padding: 1rem;
@@ -164,7 +167,7 @@ header p {
 
     [class^="card"] {
         max-width: 350px;
-        /* max-height: 255px; */
+        height: 255px;
     }
 
     .card-1 {
