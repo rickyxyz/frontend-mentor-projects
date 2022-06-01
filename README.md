@@ -15,6 +15,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [Social Proof Section](#social-proof-section)
     - [Four Card Feature Section](#four-card-feature-section)
     - [Single Price Grid Component](#single-price-grid-component)
+    - [Huddle Landing Page with Single Introductory Section](#huddle-landing-page-with-single-introductory-section)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -52,3 +53,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### Single Price Grid Component
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/single-price-grid-component-master)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/single-price-grid-component-master/index.html)
+
+### Huddle Landing Page with Single Introductory Section
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/huddle-landing-page-with-single-introductory-section-master)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/huddle-landing-page-with-single-introductory-section-master/index.html)
