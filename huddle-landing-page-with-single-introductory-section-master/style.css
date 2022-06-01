@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* code from https://css-tricks.com/inclusively-hidden/ */
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    background: url("./images/bg-mobile.svg") var(--violet);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    font-family: "Open Sans", sans-serif;
+    color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+
+    padding: 1rem 0;
+}
+
+header,
+main,
+nav {
+    width: 90%;
+}
+
+.header-logo {
+    width: 38%;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    align-items: center;
+}
+
+.main-illustration {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 9vh;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2vh;
+    margin-bottom: 2vh;
+    padding: 0 1rem;
+}
+
+.main-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.main-text p {
+    letter-spacing: 0.2px;
+    line-height: 1.5rem;
+    margin-bottom: 1.5vh;
+}
+
+.register-button {
+    color: var(--violet);
+    border: none;
+    background-color: var(--white);
+    border-radius: 4vh;
+    height: 6vh;
+    width: 200px;
+    box-shadow: 5px 5px 13px -7px hsla(0, 0%, 0%, 0.9);
+    transition: all 0.4s;
+}
+
+.register-button:hover,
+.register-button:active {
+    color: var(--white);
+    background-color: var(--soft-magenta);
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3.5%;
+    text-align: center;
+    align-items: center;
+}
+
+nav li {
+    width: 28px;
+    height: 28px;
+    border: 1px solid var(--white);
+    border-radius: 15px;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li svg {
+    height: 60%;
+    fill: var(--white);
+}
+
+nav li:hover,
+nav li:active {
+    border: 1px solid var(--soft-magenta);
+    fill: var(--soft-magenta);
+}
+
+nav li: hover, nav li.hover svg {
+    fill: var(--soft-magenta);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--soft-magenta);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background: url("./images/bg-desktop.svg") var(--violet);
+        background-repeat: no-repeat;
+        background-size: cover;
+        gap: 0;
+        max-height: 100vh;
+        padding: 1rem;
+    }
+
+    header {
+        width: 100%;
+        margin-bottom: 7vh;
+    }
+
+    .header-logo {
+        padding-left: 2.5rem;
+        width: 18%;
+    }
+
+    main {
+        align-items: flex-start;
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+
+    .main-illustration {
+        max-width: 50vw;
+        margin: auto 0;
+    }
+
+    .main-text {
+        padding: 5vh 0 0 5vh;
+        height: 100%;
+        align-items: flex-start;
+        text-align: left;
+        gap: 3.9vh;
+    }
+
+    .main-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .register-button {
+        font-size: 1.1rem;
+    }
+
+    nav {
+        margin-top: auto;
+        padding-bottom: 1.5rem;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        gap: 14px;
+    }
+
+    nav li {
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--white);
+        border-radius: 20px;
+        transition: all 0.2s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
