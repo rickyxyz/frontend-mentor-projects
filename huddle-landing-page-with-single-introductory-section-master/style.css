@@ -135,6 +135,7 @@ nav li {
 nav li svg {
     height: 60%;
     fill: var(--white);
+    transition: all 0.2s;
 }
 
 nav li:hover,
@@ -143,7 +144,8 @@ nav li:active {
     fill: var(--soft-magenta);
 }
 
-nav li: hover, nav li.hover svg {
+nav li:hover svg,
+nav li:active svg {
     fill: var(--soft-magenta);
 }
 
