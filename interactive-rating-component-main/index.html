@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
 </head>
-<body>
 
-  <!-- Rating state start -->
+<body class="body">
+    <main class="card">
+        <h1 class="sr-only">Interactive rating component</h1>
+        <!-- Rating state start -->
+        <section class="card__rating">
+            <span class="card__image_star">
+                <img src="./images/icon-star.svg" alt="star icon">
+            </span>
+            <h2 class="card__header">How did we do?</h2>
+            <p class="card__text">
+                Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!
+            </p>
+            <form class="rating-form">
+                <ul class="rating-form__rating-list">
+                    <label for="rating 1" class="rating-form__rating-item">
+                        <input type="radio" name="rating" value="1" class="rating-form__radio">
+                        <span class="rating-form__span">1</span>
+                    </label>
+                    <label for="rating 2" class="rating-form__rating-item">
+                        <input type="radio" name="rating" value="2" class="rating-form__radio">
+                        <span class="rating-form__span">2</span>
+                    </label>
+                    <label for="rating 3" class="rating-form__rating-item">
+                        <input type="radio" name="rating" value="3" class="rating-form__radio">
+                        <span class="rating-form__span">3</span>
+                    </label>
+                    <label for="rating 4" class="rating-form__rating-item">
+                        <input type="radio" name="rating" value="4" class="rating-form__radio">
+                        <span class="rating-form__span">4</span>
+                    </label>
+                    <label for="rating 5" class="rating-form__rating-item">
+                        <input type="radio" name="rating" value="5" class="rating-form__radio">
+                        <span class="rating-form__span">5</span>
+                    </label>
+                </ul>
+                <button type="submit" class="button_submit">Submit</button>
+            </form>
+        </section>
+        <!-- Rating state end -->
+        <!-- Thank you state start -->
+        <section class="card__thank-you card_hidden">
+            <img src="./images/illustration-thank-you.svg" alt="thank you illustration" class="card__image_thank-you">
+            <div class="card__rating-result">You selected <!-- Add rating here --> out of 5</div>
+            <h2 class="card__header">Thank you!</h2>
+            <p class="card__text">
+                We appreciate you taking the time to give a rating. If you ever need more support,
+                don't hesitate to get in touch!
+            </p>
+        </section>
+        <!-- Thank you state end -->
+    </main>
 
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
-  <div class="attribution">
+    <!-- <footer class="footer attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="github.com/rickyxyz">🐢</a>.
+  </footer> -->
 </body>
+
 </html>
