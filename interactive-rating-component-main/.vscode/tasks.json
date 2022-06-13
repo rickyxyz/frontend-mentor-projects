@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "Live Preview",
+            "args": [],
+            "problemMatcher": [],
+            "label": "Live Preview: Run Server",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn":["Sass Compile"]
+        },
+        {
+            "type": "shell",
+            "label": "Sass Compile",
+            "command": "~/sass/dart-sass/sass",
+            "args": ["./scss/main.scss", "./style.css"],
+            "group": "build"
+        }
+    ]
+}

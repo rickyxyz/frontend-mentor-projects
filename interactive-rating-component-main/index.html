@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body class="body">
+    <main class="card">
+        <h1 class="sr-only">Interactive rating component</h1>
+        <!-- Rating state start -->
+        <section class="card__rating" id="content_before">
+            <span class="span_circle">
+                <img src="./images/icon-star.svg" alt="star icon">
+            </span>
+            <h2 class="card__header">How did we do?</h2>
+            <p class="card__text">
+                Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!
+            </p>
+            <form class="rating-form">
+                <ul class="rating-form__rating-list">
+                    <label for="rating 1">
+                        <input type="radio" name="rating" required value="1" class="rating-form__radio">
+                        <span class="span_circle">1</span>
+                    </label>
+                    <label for="rating 2">
+                        <input type="radio" name="rating" value="2" required class="rating-form__radio">
+                        <span class="span_circle">2</span>
+                    </label>
+                    <label for="rating 3">
+                        <input type="radio" name="rating" value="3" required class="rating-form__radio">
+                        <span class="span_circle">3</span>
+                    </label>
+                    <label for="rating 4">
+                        <input type="radio" name="rating" value="4" required class="rating-form__radio">
+                        <span class="span_circle">4</span>
+                    </label>
+                    <label for="rating 5">
+                        <input type="radio" name="rating" value="5" required class="rating-form__radio">
+                        <span class="span_circle">5</span>
+                    </label>
+                </ul>
+                <button type="submit" class="button_submit">Submit</button>
+            </form>
+        </section>
+        <!-- Rating state end -->
+        <!-- Thank you state start -->
+        <section class="card__thank-you card_hidden" id="content_after">
+            <img src="./images/illustration-thank-you.svg" alt="thank you illustration" class="card__image_thank-you">
+            <div class="card__rating-result" id="rating_result"></div>
+            <h2 class="card__header">Thank you!</h2>
+            <p class="card__text">
+                We appreciate you taking the time to give a rating. If you ever need more support,
+                don't hesitate to get in touch!
+            </p>
+        </section>
+        <!-- Thank you state end -->
+    </main>
+
+    <!-- <footer class="footer attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="github.com/rickyxyz">🐢</a>.
+  </footer> -->
+</body>
+
+</html>
