@@ -17,8 +17,8 @@
     <main class="card">
         <h1 class="sr-only">Interactive rating component</h1>
         <!-- Rating state start -->
-        <section class="card__rating">
-            <span class="card__image_star">
+        <section class="card__rating" id="content_before">
+            <span class="span_circle">
                 <img src="./images/icon-star.svg" alt="star icon">
             </span>
             <h2 class="card__header">How did we do?</h2>
@@ -28,25 +28,25 @@
             </p>
             <form class="rating-form">
                 <ul class="rating-form__rating-list">
-                    <label for="rating 1" class="rating-form__rating-item">
+                    <label for="rating 1">
                         <input type="radio" name="rating" value="1" class="rating-form__radio">
-                        <span class="rating-form__span">1</span>
+                        <span class="span_circle">1</span>
                     </label>
-                    <label for="rating 2" class="rating-form__rating-item">
+                    <label for="rating 2">
                         <input type="radio" name="rating" value="2" class="rating-form__radio">
-                        <span class="rating-form__span">2</span>
+                        <span class="span_circle">2</span>
                     </label>
-                    <label for="rating 3" class="rating-form__rating-item">
+                    <label for="rating 3">
                         <input type="radio" name="rating" value="3" class="rating-form__radio">
-                        <span class="rating-form__span">3</span>
+                        <span class="span_circle">3</span>
                     </label>
-                    <label for="rating 4" class="rating-form__rating-item">
+                    <label for="rating 4">
                         <input type="radio" name="rating" value="4" class="rating-form__radio">
-                        <span class="rating-form__span">4</span>
+                        <span class="span_circle">4</span>
                     </label>
-                    <label for="rating 5" class="rating-form__rating-item">
+                    <label for="rating 5">
                         <input type="radio" name="rating" value="5" class="rating-form__radio">
-                        <span class="rating-form__span">5</span>
+                        <span class="span_circle">5</span>
                     </label>
                 </ul>
                 <button type="submit" class="button_submit">Submit</button>
@@ -54,9 +54,9 @@
         </section>
         <!-- Rating state end -->
         <!-- Thank you state start -->
-        <section class="card__thank-you card_hidden">
+        <section class="card__thank-you card_hidden" id="content_after">
             <img src="./images/illustration-thank-you.svg" alt="thank you illustration" class="card__image_thank-you">
-            <div class="card__rating-result">You selected <!-- Add rating here --> out of 5</div>
+            <div class="card__rating-result" id="rating_result"></div>
             <h2 class="card__header">Thank you!</h2>
             <p class="card__text">
                 We appreciate you taking the time to give a rating. If you ever need more support,

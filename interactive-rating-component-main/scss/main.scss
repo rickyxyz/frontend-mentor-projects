@@ -5,8 +5,8 @@ $orange: hsl(25, 97%, 53%);
 $white: hsl(0, 0%, 100%);
 $light-grey: hsl(217, 12%, 63%);
 $medium-grey: hsl(216, 12%, 54%);
+$medium-grey-transparent: hsl(216, 12%, 54%, 0.1);
 $dark-blue: hsl(213, 19%, 18%);
-$medium-blue: hsl(218, 15%, 25%);
 $very-dark-blue: hsl(216, 12%, 8%);
 
 $circle-radius: 2.6rem;
@@ -39,21 +39,24 @@ $circle-radius: 2.6rem;
     justify-content: center;
 }
 
+.span_circle {
+    height: $circle-radius;
+    width: $circle-radius;
+    border-radius: 50%;
+    background-color: $medium-grey-transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
     border-radius: 15px;
     background: $dark-blue;
     padding: 1.5rem 1.2rem;
     max-width: 325px;
-
-    &__image_star {
-        height: $circle-radius;
-        width: $circle-radius;
-        border-radius: 50%;
-        background-color: $medium-blue;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    min-height: 350px;
+    display: flex;
+    align-items: center;
 
     &__rating {
         display: flex;
@@ -67,13 +70,34 @@ $circle-radius: 2.6rem;
         letter-spacing: 0.4px;
     }
 
-    &_hidden {
-        display: none;
-    }
-
     &__text {
         letter-spacing: -0.3px;
         margin-bottom: 1rem;
+    }
+
+    &__thank-you {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 1rem;
+        line-height: 1.4rem;
+    }
+
+    &__image_thank-you {
+        max-width: 50%;
+        height: auto;
+    }
+
+    &__rating-result {
+        background-color: $medium-grey-transparent;
+        color: $orange;
+        padding: 0.4rem 1rem 0.1rem 1rem;
+        border-radius: 1rem;
+    }
+
+    &_hidden {
+        display: none !important;
     }
 }
 
@@ -88,26 +112,28 @@ $circle-radius: 2.6rem;
         justify-content: space-between;
     }
 
-    &__rating-item {
-        position: relative;
-        background-color: $medium-blue;
-        height: $circle-radius;
-        width: $circle-radius;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     &__radio {
+        cursor: pointer;
         opacity: 0;
         position: absolute;
         height: $circle-radius;
         width: $circle-radius;
+
+        &:hover+.span_circle {
+            color: $white;
+            background-color: $medium-grey;
+            transition: all 0.2s ease-in;
+        }
+
+        &:checked+.span_circle {
+            color: $white;
+            background-color: $orange;
+        }
     }
 }
 
 .button_submit {
+    cursor: pointer;
     border-radius: 1.3rem;
     border: none;
     color: $white;
@@ -116,6 +142,12 @@ $circle-radius: 2.6rem;
     font-weight: 700;
     letter-spacing: 2px;
     height: 2.8rem;
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: $white;
+        color: $orange;
+    }
 }
 
 .attribution {
