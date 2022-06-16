@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 12px "Kumbh Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
+  padding: 1rem;
+  position: relative;
+}
+
+.card {
+  background: hsl(0deg, 0%, 100%);
+  border-radius: 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  text-align: center;
+}
+.card__banner {
+  visibility: hidden;
+  height: 7.5rem;
+  width: 100%;
+}
+.card__banner_illustration {
+  background: url("./images/illustration-woman-online-mobile.svg") no-repeat;
+  background-size: contain;
+  width: 15rem;
+  height: 11rem;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -60%);
+}
+.card__banner_shadow {
+  background: url("./images/bg-pattern-mobile.svg") no-repeat;
+  background-size: contain;
+  width: 15rem;
+  height: 11rem;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -60%);
+}
+.card__header {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.accordion-item__header {
+  font-weight: 400;
+  font-size: 0.9rem;
+  letter-spacing: -0.8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */

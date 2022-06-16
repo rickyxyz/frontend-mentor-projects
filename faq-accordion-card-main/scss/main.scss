@@ -1,0 +1,89 @@
+$font-stack: 'Kumbh Sans', sans-serif;
+$very-dark-desaturated-blue: hsl(238, 29%, 16%);
+$soft-red: hsl(14, 88%, 65%);
+$soft-violet: hsl(273, 75%, 66%);
+$soft-blue: hsl(240, 73%, 65%);
+$very-dark-grayish-blue: hsl(237, 12%, 33%);
+$dark-grayish-blue: hsl(240, 6%, 50%);
+$light-grayish-blue: hsl(240, 5%, 91%);
+$white: hsl(0, 0%, 100%);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 12px $font-stack;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient($soft-violet, $soft-blue);
+    padding: 1rem;
+    position: relative;
+}
+
+.card {
+    background: $white;
+    border-radius: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    text-align: center;
+
+    &__banner {
+        visibility: hidden;
+        height: 7.5rem;
+        width: 100%;
+
+        &_illustration {
+            background: url("./images/illustration-woman-online-mobile.svg") no-repeat;
+            background-size: contain;
+            width: 15rem;
+            height: 11rem;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -60%);
+        }
+
+        &_shadow {
+            background: url("./images/bg-pattern-mobile.svg") no-repeat;
+            background-size: contain;
+            width: 15rem;
+            height: 11rem;
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            transform: translate(-50%, -60%);
+        }
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+}
+
+.accordion-item {
+    &__header {
+        font-weight: 400;
+        font-size: 0.9rem;
+        letter-spacing: -0.8px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
