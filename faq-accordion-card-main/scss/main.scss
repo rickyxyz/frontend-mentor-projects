@@ -8,6 +8,8 @@ $dark-grayish-blue: hsl(240, 6%, 50%);
 $light-grayish-blue: hsl(240, 5%, 91%);
 $white: hsl(0, 0%, 100%);
 
+$breakpoint-desktop: 1000px;
+
 * {
     padding: 0;
     margin: 0;
@@ -100,10 +102,12 @@ body {
     }
 
     &__content {
-        transition: 0.4s;
-        max-height: max-content;
-        padding-bottom: 1rem;
-        
+        &_visible{
+            transition: 0.4s;
+            max-height: max-content;
+            padding-bottom: 1rem;
+        }
+
         &_hidden {
             overflow: hidden;
             transition: 0.4s;
@@ -119,4 +123,66 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+    body{
+        align-items: center;
+    }
+
+    .card {
+        flex-direction: row;
+        max-width: 65%;
+        position: relative;
+        margin-top: 0;
+        min-height: 510px;
+
+        &__banner {
+            height: auto;
+            width: 100%;
+            overflow: hidden;
+
+            &_illustration {
+                background: url("./images/illustration-woman-online-desktop.svg") no-repeat;
+                background-size: contain;
+                width: 29rem;
+                height: 29rem;
+                left: -17%;
+                top: 15%;
+                position: relative;
+                transform: translate(0, 0);
+            }
+    
+            &_box {
+                background: url("./images/illustration-box-desktop.svg") no-repeat;
+                background-size: contain;
+                height: 12rem;
+                width: 12rem;
+                position: absolute;
+                left: -10%;
+                top: 40%;
+            }
+
+            &_shadow {
+                background: url("./images/bg-pattern-desktop.svg") no-repeat;
+                background-size: contain;
+                width: 60rem;
+                height: 60rem;
+                position: absolute;
+                left: -20%;
+                top: 55%;
+            }
+
+        }
+
+        &__content-wrapper {
+            text-align: left;
+            padding: 4rem 7rem 2rem 2rem;
+            gap: 1rem;
+        }
+
+        &__header {
+            margin-bottom: 1.5rem;
+        }
+    }
 }
