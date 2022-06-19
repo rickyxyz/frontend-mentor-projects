@@ -17,6 +17,7 @@ $breakpoint-desktop: 1000px;
 }
 
 body {
+    color: $dark-grayish-blue;
     font: 12px $font-stack;
     min-height: 100vh;
     display: flex;
@@ -66,6 +67,7 @@ body {
     &__header {
         font-weight: 700;
         font-size: 2rem;
+        color: $very-dark-desaturated-blue;
     }
 
     &__content-wrapper {
@@ -78,9 +80,10 @@ body {
 
 .accordion-item {
     text-align: left;
-    border-bottom: 1px solid $dark-grayish-blue;
+    border-bottom: 1px solid $light-grayish-blue;
 
     &__header {
+        cursor: pointer;
         font-weight: 400;
         font-size: 0.9rem;
         letter-spacing: -0.8px;
@@ -90,6 +93,19 @@ body {
         justify-content: space-between;
 
         padding-bottom: 1rem;
+
+        color: $very-dark-grayish-blue;
+
+        transition: 0.2s;
+
+        &:hover, &:active {
+            color: $soft-red;
+            transition: 0.2s;
+        }
+        
+        &_active {
+            font-weight: 700;
+        }
 
         &_active .accordion-item__arrow{
             transform: rotate(180deg);
