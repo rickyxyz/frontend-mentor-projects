@@ -9,7 +9,6 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   background: linear-gradient(hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
   padding: 1rem;
   position: relative;
@@ -18,14 +17,15 @@ body {
 .card {
   background: hsl(0deg, 0%, 100%);
   border-radius: 1.5rem;
-  position: relative;
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
   text-align: center;
+  margin-top: 7.5rem;
+  width: 95%;
+  height: min-content;
 }
 .card__banner {
-  visibility: hidden;
+  position: relative;
   height: 7.5rem;
   width: 100%;
 }
@@ -45,14 +45,24 @@ body {
   height: 11rem;
   position: absolute;
   left: 50%;
-  top: 25%;
+  top: 90%;
   transform: translate(-50%, -60%);
 }
 .card__header {
   font-weight: 700;
   font-size: 2rem;
 }
+.card__content-wrapper {
+  padding: 0.5rem 1.5rem 2rem 1.5rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
 
+.accordion-item {
+  text-align: left;
+  border-bottom: 1px solid hsl(240deg, 6%, 50%);
+}
 .accordion-item__header {
   font-weight: 400;
   font-size: 0.9rem;
@@ -60,6 +70,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.accordion-item__content {
+  display: none;
+  padding-bottom: 1rem;
 }
 
 .attribution {
