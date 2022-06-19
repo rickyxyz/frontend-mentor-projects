@@ -88,11 +88,27 @@ body {
         justify-content: space-between;
 
         padding-bottom: 1rem;
+
+        &_active .accordion-item__arrow{
+            transform: rotate(180deg);
+            transition: 0.2s;
+        }
+    }
+
+    &__arrow {
+        transition: 0.2s;
     }
 
     &__content {
-        display: none;
+        transition: 0.4s;
+        max-height: max-content;
         padding-bottom: 1rem;
+        
+        &_hidden {
+            overflow: hidden;
+            transition: 0.4s;
+            max-height: 0;
+        }
     }
 }
 

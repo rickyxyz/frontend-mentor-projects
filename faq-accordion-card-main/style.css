@@ -72,9 +72,22 @@ body {
   justify-content: space-between;
   padding-bottom: 1rem;
 }
+.accordion-item__header_active .accordion-item__arrow {
+  transform: rotate(180deg);
+  transition: 0.2s;
+}
+.accordion-item__arrow {
+  transition: 0.2s;
+}
 .accordion-item__content {
-  display: none;
+  transition: 0.4s;
+  max-height: max-content;
   padding-bottom: 1rem;
+}
+.accordion-item__content_hidden {
+  overflow: hidden;
+  transition: 0.4s;
+  max-height: 0;
 }
 
 .attribution {
