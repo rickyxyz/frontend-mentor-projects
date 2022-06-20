@@ -1,0 +1,198 @@
+$font-stack: 'Kumbh Sans', sans-serif;
+$very-dark-desaturated-blue: hsl(238, 29%, 16%);
+$soft-red: hsl(14, 88%, 65%);
+$soft-violet: hsl(273, 75%, 66%);
+$soft-blue: hsl(240, 73%, 65%);
+$very-dark-grayish-blue: hsl(237, 12%, 33%);
+$dark-grayish-blue: hsl(240, 6%, 50%);
+$light-grayish-blue: hsl(240, 5%, 91%);
+$white: hsl(0, 0%, 100%);
+
+$breakpoint-desktop: 1000px;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: $dark-grayish-blue;
+    font: 12px $font-stack;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient($soft-violet, $soft-blue);
+    padding: 1rem;
+}
+
+.card {
+    background: $white;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 7.5rem;
+    width: 95%;
+    height: min-content;
+
+    &__banner {
+        position: relative;
+        height: clamp(2rem, 23vw, 15rem);
+
+        &_illustration {
+            background: url("./images/illustration-woman-online-mobile.svg") no-repeat;
+            background-size: contain;
+            width: 50vw;
+            height: clamp(5rem, 40vw, 40rem);
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -58%);
+        }
+
+        &_shadow {
+            background: url("./images/bg-pattern-mobile.svg") no-repeat;
+            background-size: contain;
+            width: 50vw;
+            height: clamp(5rem, 22vw, 40rem);
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 2rem;
+        color: $very-dark-desaturated-blue;
+    }
+
+    &__content-wrapper {
+        padding: 0.5rem 1.5rem 2rem 1.5rem;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.accordion-item {
+    text-align: left;
+    border-bottom: 1px solid $light-grayish-blue;
+
+    &__header {
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 0.9rem;
+        letter-spacing: -0.8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+        color: $very-dark-grayish-blue;
+        transition: 0.2s;
+
+        &:hover, &:active {
+            color: $soft-red;
+            transition: 0.2s;
+        }
+        
+        &_active {
+            font-weight: 700;
+        }
+
+        &_active .accordion-item__arrow{
+            transform: rotate(180deg);
+            transition: 0.2s;
+        }
+    }
+
+    &__arrow {
+        transition: 0.2s;
+    }
+
+    &__content {
+        &_visible{
+            transition: 0.4s;
+            padding-bottom: 1rem;
+        }
+
+        &_hidden {
+            overflow: hidden;
+            transition: 0.4s;
+            max-height: 0;
+        }
+    }
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+    body{
+        align-items: center;
+    }
+
+    .card {
+        flex-direction: row;
+        max-width: 68%;
+        position: relative;
+        margin-top: 0;
+        min-height: 510px;
+
+        &__banner {
+            height: auto;
+            overflow: hidden;
+            width: 100%;
+            max-width: 500px;
+
+            &_illustration {
+                background: url("./images/illustration-woman-online-desktop.svg") no-repeat;
+                background-size: contain;
+                width: min(32vw, 38rem);
+                height: min(26.6vw, 29rem);
+                left: -16%;
+                top: 50%;
+                position: relative;
+                transform: translate(0, -50%);
+            }
+
+            &_shadow {
+                background: url("./images/bg-pattern-desktop.svg") no-repeat;
+                background-size: contain;
+                width: min(57vw, 60rem);
+                height: min(57vw, 60rem);
+                position: absolute;
+                left: -100%;
+                top: 50%;
+                transform: translate(1%, -50%);
+            }
+            
+            &_box {
+                background: url("./images/illustration-box-desktop.svg") no-repeat;
+                background-size: contain;
+                height: 11.5vw;
+                width: 11.5vw;
+                position: absolute;
+                top: 50%;
+                transform: translate(-49%, -30%);
+            }
+        }
+
+        &__content-wrapper {
+            width: 100%;
+            text-align: left;
+            padding: 4rem clamp(2rem, 5vw, 7rem) 2rem 2rem;
+            gap: 1rem;
+        }
+
+        &__header {
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
