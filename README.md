@@ -17,6 +17,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [Single Price Grid Component](#single-price-grid-component)
     - [Huddle Landing Page with Single Introductory Section](#huddle-landing-page-with-single-introductory-section)
     - [Interactive Rating Component](#interactive-rating-component)
+    - [FAQ Accordion Card](#faq-accordion-card)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -62,3 +63,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### Interactive Rating Component
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/interactive-rating-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/interactive-rating-component-main/index.html)
+
+### FAQ Accordion Card 
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/faq-accordion-card-main)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/faq-accordion-card-main/index.html)
