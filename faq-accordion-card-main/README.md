@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/faq-accordion-card-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/faq-accordion-card-main /index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/faq-accordion-card-main/index.html)
 
 ## My process
 
