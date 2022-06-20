@@ -14,7 +14,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -28,7 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop screenshot](./screenshots/faq-accordion-card-screenshot-desktop.png)
+
+![mobile screenshot](./screenshots/faq-accordion-card-screenshot-mobile.png)
 
 ### Links
 
