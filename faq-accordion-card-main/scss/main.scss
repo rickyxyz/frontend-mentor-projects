@@ -24,7 +24,6 @@ body {
     justify-content: center;
     background: linear-gradient($soft-violet, $soft-blue);
     padding: 1rem;
-    position: relative;
 }
 
 .card {
@@ -85,15 +84,11 @@ body {
         font-weight: 400;
         font-size: 0.9rem;
         letter-spacing: -0.8px;
-
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
         padding-bottom: 1rem;
-
         color: $very-dark-grayish-blue;
-
         transition: 0.2s;
 
         &:hover, &:active {
@@ -118,7 +113,6 @@ body {
     &__content {
         &_visible{
             transition: 0.4s;
-            max-height: max-content;
             padding-bottom: 1rem;
         }
 
@@ -130,15 +124,6 @@ body {
     }
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 @media screen and (min-width: $breakpoint-desktop) {
     body{
         align-items: center;
@@ -146,52 +131,55 @@ body {
 
     .card {
         flex-direction: row;
-        max-width: 65%;
+        max-width: 68%;
         position: relative;
         margin-top: 0;
         min-height: 510px;
 
         &__banner {
             height: auto;
-            width: 100%;
             overflow: hidden;
+            width: 100%;
+            max-width: 500px;
 
             &_illustration {
                 background: url("./images/illustration-woman-online-desktop.svg") no-repeat;
                 background-size: contain;
-                width: 29rem;
-                height: 29rem;
-                left: -17%;
-                top: 15%;
+                width: min(32vw, 38rem);
+                height: min(26.6vw, 29rem);
+                left: -16%;
+                top: 50%;
                 position: relative;
-                transform: translate(0, 0);
-            }
-    
-            &_box {
-                background: url("./images/illustration-box-desktop.svg") no-repeat;
-                background-size: contain;
-                height: 12rem;
-                width: 12rem;
-                position: absolute;
-                left: -10%;
-                top: 40%;
+                transform: translate(0, -50%);
             }
 
             &_shadow {
                 background: url("./images/bg-pattern-desktop.svg") no-repeat;
                 background-size: contain;
-                width: 60rem;
-                height: 60rem;
+                width: min(57vw, 60rem);
+                height: min(57vw, 60rem);
                 position: absolute;
-                left: -20%;
-                top: 55%;
+                left: -100%;
+                top: 50%;
+                transform: translate(1%, -50%);
             }
-
+            
+            &_box {
+                // border: 1px solid black;
+                background: url("./images/illustration-box-desktop.svg") no-repeat;
+                background-size: contain;
+                height: 11.5vw;
+                width: 11.5vw;
+                position: absolute;
+                top: 50%;
+                transform: translate(-49%, -30%);
+            }
         }
 
         &__content-wrapper {
+            width: 100%;
             text-align: left;
-            padding: 4rem 7rem 2rem 2rem;
+            padding: 4rem clamp(2rem, 5vw, 7rem) 2rem 2rem;
             gap: 1rem;
         }
 
@@ -199,4 +187,13 @@ body {
             margin-bottom: 1.5rem;
         }
     }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }

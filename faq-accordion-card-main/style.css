@@ -12,7 +12,6 @@ body {
   justify-content: center;
   background: linear-gradient(hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
   padding: 1rem;
-  position: relative;
 }
 
 .card {
@@ -91,22 +90,12 @@ body {
 }
 .accordion-item__content_visible {
   transition: 0.4s;
-  max-height: max-content;
   padding-bottom: 1rem;
 }
 .accordion-item__content_hidden {
   overflow: hidden;
   transition: 0.4s;
   max-height: 0;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
 }
 
 @media screen and (min-width: 1000px) {
@@ -116,52 +105,63 @@ body {
 
   .card {
     flex-direction: row;
-    max-width: 65%;
+    max-width: 68%;
     position: relative;
     margin-top: 0;
     min-height: 510px;
   }
   .card__banner {
     height: auto;
-    width: 100%;
     overflow: hidden;
+    width: 100%;
+    max-width: 500px;
   }
   .card__banner_illustration {
     background: url("./images/illustration-woman-online-desktop.svg") no-repeat;
     background-size: contain;
-    width: 29rem;
-    height: 29rem;
-    left: -17%;
-    top: 15%;
+    width: min(32vw, 38rem);
+    height: min(26.6vw, 29rem);
+    left: -16%;
+    top: 50%;
     position: relative;
-    transform: translate(0, 0);
-  }
-  .card__banner_box {
-    background: url("./images/illustration-box-desktop.svg") no-repeat;
-    background-size: contain;
-    height: 12rem;
-    width: 12rem;
-    position: absolute;
-    left: -10%;
-    top: 40%;
+    transform: translate(0, -50%);
   }
   .card__banner_shadow {
     background: url("./images/bg-pattern-desktop.svg") no-repeat;
     background-size: contain;
-    width: 60rem;
-    height: 60rem;
+    width: min(57vw, 60rem);
+    height: min(57vw, 60rem);
     position: absolute;
-    left: -20%;
-    top: 55%;
+    left: -100%;
+    top: 50%;
+    transform: translate(1%, -50%);
+  }
+  .card__banner_box {
+    background: url("./images/illustration-box-desktop.svg") no-repeat;
+    background-size: contain;
+    height: 11.5vw;
+    width: 11.5vw;
+    position: absolute;
+    top: 50%;
+    transform: translate(-49%, -30%);
   }
   .card__content-wrapper {
+    width: 100%;
     text-align: left;
-    padding: 4rem 7rem 2rem 2rem;
+    padding: 4rem clamp(2rem, 5vw, 7rem) 2rem 2rem;
     gap: 1rem;
   }
   .card__header {
     margin-bottom: 1.5rem;
   }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
 }
 
 /*# sourceMappingURL=style.css.map */
