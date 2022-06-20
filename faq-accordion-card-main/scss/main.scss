@@ -39,28 +39,26 @@ body {
 
     &__banner {
         position: relative;
-        height: 7.5rem;
-        width: 100%;
+        height: clamp(2rem, 23vw, 15rem);
 
         &_illustration {
             background: url("./images/illustration-woman-online-mobile.svg") no-repeat;
             background-size: contain;
-            width: 15rem;
-            height: 11rem;
+            width: 50vw;
+            height: clamp(5rem, 40vw, 40rem);
             left: 50%;
             position: absolute;
-            transform: translate(-50%, -60%);
+            transform: translate(-50%, -58%);
         }
 
         &_shadow {
             background: url("./images/bg-pattern-mobile.svg") no-repeat;
             background-size: contain;
-            width: 15rem;
-            height: 11rem;
+            width: 50vw;
+            height: clamp(5rem, 22vw, 40rem);
             position: absolute;
             left: 50%;
-            top: 90%;
-            transform: translate(-50%, -60%);
+            transform: translate(-50%, 0);
         }
     }
 
