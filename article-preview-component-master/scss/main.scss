@@ -4,7 +4,7 @@ $desaturated-dark-blue: hsl(214, 17%, 51%);
 $grayish-blue: hsl(212, 23%, 69%);
 $light-grayish-blue: hsl(210, 46%, 95%);
 $white: hsl(0, 0%, 100%);
-$breakpoint-desktop: 1440px;
+$breakpoint-desktop: 700px;
 
 html {
     box-sizing: border-box;
@@ -126,4 +126,27 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+    .card {
+        display: flex;
+        max-width: 730px;
+
+        &__banner {
+            background: url("./images/drawers.jpg");
+            background-size: cover;
+            background-position: top;
+            width: 100%;
+            height: auto;
+        }
+
+        &__body {
+            padding: 2rem 2.5rem;
+        }
+
+        &__title {
+            font-size: 1.3rem;
+        }
+    }
 }

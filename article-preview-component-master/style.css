@@ -110,4 +110,24 @@ body {
   color: hsl(228deg, 45%, 44%);
 }
 
+@media screen and (min-width: 700px) {
+  .card {
+    display: flex;
+    max-width: 730px;
+  }
+  .card__banner {
+    background: url("./images/drawers.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: auto;
+  }
+  .card__body {
+    padding: 2rem 2.5rem;
+  }
+  .card__title {
+    font-size: 1.3rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
