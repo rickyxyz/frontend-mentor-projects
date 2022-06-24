@@ -3,10 +3,10 @@ $very-dark-grayish-blue: hsl(217, 19%, 35%);
 $desaturated-dark-blue: hsl(214, 17%, 51%);
 $grayish-blue: hsl(212, 23%, 69%);
 $light-grayish-blue: hsl(210, 46%, 95%);
+$white: hsl(0, 0%, 100%);
 $breakpoint-desktop: 1440px;
 
 html {
-    font: $font-stack 13px;
     box-sizing: border-box;
 }
 
@@ -23,8 +23,100 @@ img {
     display: block;
 }
 
+button {
+    border: none;
+}
+
 ol, ul {
     list-style: none;
+}
+
+body {
+    font: 13px $font-stack;
+    color: $very-dark-grayish-blue;
+    min-height: 100vh;
+    background: $light-grayish-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: $white;
+
+    &__banner {
+        background: url("./images/drawers.jpg");
+        background-size: cover;
+        background-position: top;
+        height: clamp(10rem, 30vh, 15rem);
+    }
+
+    &__body {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-size: 1rem;
+    }
+
+    &__subtitle {
+        color: $desaturated-dark-blue;
+        padding-bottom: 1rem;
+        line-height: 1.3rem;
+    }
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &__avatar {
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 2.5rem;
+    }
+
+    &__author {
+        font-weight: 700;
+    }
+
+    &__publish-date {
+        color: $grayish-blue;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-right: auto;
+    }
+}
+
+.button {
+    background-color: $light-grayish-blue;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_share {
+        color: $very-dark-grayish-blue;
+    }
+
+    ion-icon {
+        font-size: 1.1rem;
+    }
 }
 
 .attribution {
