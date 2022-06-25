@@ -42,10 +42,15 @@ body {
     padding: 1.5rem;
 }
 
+ion-icon {
+    font-size: 1.1rem;
+}
+
 .card {
     border-radius: 10px;
     overflow: hidden;
     background-color: $white;
+    box-shadow: 2px 10px 20px -8px $grayish-blue;
 
     &__banner {
         background: url("./images/drawers.jpg");
@@ -55,7 +60,7 @@ body {
     }
 
     &__body {
-        padding: 2rem;
+        padding: 2rem 2rem 1rem 2rem;
         display: flex;
         flex-direction: column;
         gap: 0.8rem;
@@ -71,10 +76,15 @@ body {
         padding-bottom: 1rem;
         line-height: 1.3rem;
     }
+
+    &__footer {
+        // min-height: 20%;
+    }
 }
 
 .info-section {
-    display: flex;
+    display: none;
+    // display: flex;
     align-items: center;
     gap: 1rem;
 
@@ -102,21 +112,50 @@ body {
 }
 
 .button {
-    background-color: $light-grayish-blue;
     height: 2rem;
     width: 2rem;
     border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    &_share {
+    
+    &_inactive {
+        background-color: $light-grayish-blue;
         color: $very-dark-grayish-blue;
     }
 
-    ion-icon {
-        font-size: 1.1rem;
+    &_active {
+        background-color: $desaturated-dark-blue;
+        color: $white;
     }
+}
+
+.share-section {
+    background-color: $very-dark-grayish-blue;
+    color: $desaturated-dark-blue;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+
+    &__button-group {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+        gap: 1rem;
+    }
+
+    &__social-icon {
+        ion-icon {
+            font-size: 1.5rem;
+            color: white;
+        }
+    }
+
+
 }
 
 .attribution {

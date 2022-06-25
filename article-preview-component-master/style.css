@@ -34,10 +34,15 @@ body {
   padding: 1.5rem;
 }
 
+ion-icon {
+  font-size: 1.1rem;
+}
+
 .card {
   border-radius: 10px;
   overflow: hidden;
   background-color: hsl(0deg, 0%, 100%);
+  box-shadow: 2px 10px 20px -8px hsl(212deg, 23%, 69%);
 }
 .card__banner {
   background: url("./images/drawers.jpg");
@@ -46,7 +51,7 @@ body {
   height: clamp(10rem, 30vh, 15rem);
 }
 .card__body {
-  padding: 2rem;
+  padding: 2rem 2rem 1rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
@@ -60,9 +65,8 @@ body {
   padding-bottom: 1rem;
   line-height: 1.3rem;
 }
-
 .info-section {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 1rem;
 }
@@ -86,7 +90,6 @@ body {
 }
 
 .button {
-  background-color: hsl(210deg, 46%, 95%);
   height: 2rem;
   width: 2rem;
   border-radius: 1rem;
@@ -94,11 +97,35 @@ body {
   align-items: center;
   justify-content: center;
 }
-.button_share {
+.button_inactive {
+  background-color: hsl(210deg, 46%, 95%);
   color: hsl(217deg, 19%, 35%);
 }
-.button ion-icon {
-  font-size: 1.1rem;
+.button_active {
+  background-color: hsl(214deg, 17%, 51%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.share-section {
+  background-color: hsl(217deg, 19%, 35%);
+  color: hsl(214deg, 17%, 51%);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+}
+.share-section__button-group {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  gap: 1rem;
+}
+.share-section__social-icon ion-icon {
+  font-size: 1.5rem;
+  color: white;
 }
 
 .attribution {

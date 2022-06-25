@@ -24,7 +24,7 @@
     <main class="card">
         <div class="card__banner">
         </div>
-        <article class="card__body">
+        <section class="card__body">
             <h1 class="card__title">
                 Shift the overall look and feel by adding these wonderful
                 touches to furniture in your home
@@ -34,7 +34,9 @@
                 it felt slightly bare and uninviting. I've got some simple tips
                 to help you make any room feel complete.
             </p>
-            <section class="info-section">
+        </section>
+        <section class="card__footer">
+            <div class="info-section">
                 <img src="./images/avatar-michelle.jpg" alt="user's avatar image" class="info-section__avatar">
                 <p class="info-section__wrapper">
                     <span class="info-section__author">Michelle Appleton</span>
@@ -43,9 +45,25 @@
                 <button class="button button_share">
                     <ion-icon name="arrow-redo"></ion-icon>
                 </button>
-            </section>
-        </article>
-        <!-- Share -->
+            </div>
+            <div class="share-section">
+                <span class="share-section__text">Share</span>
+                <ul class="share-section__button-group">
+                    <li class="share-section__social-icon">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </li>
+                    <li class="share-section__social-icon">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </li>
+                    <li class="share-section__social-icon">
+                        <ion-icon name="logo-pinterest"></ion-icon>
+                    </li>
+                </ul>
+                <button class="button button_inactive">
+                    <ion-icon name="arrow-redo"></ion-icon>
+                </button>
+            </div>
+        </section>
     </main>
     <!-- <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
