@@ -18,6 +18,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [Huddle Landing Page with Single Introductory Section](#huddle-landing-page-with-single-introductory-section)
     - [Interactive Rating Component](#interactive-rating-component)
     - [FAQ Accordion Card](#faq-accordion-card)
+    - [Article Preview Component](#article-preview-component)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -64,6 +65,10 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/interactive-rating-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/interactive-rating-component-main/index.html)
 
-### FAQ Accordion Card 
+### FAQ Accordion Card
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/faq-accordion-card-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/faq-accordion-card-main/index.html)
+
+### Article Preview Component
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/article-preview-component-master)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/article-preview-component-master/index.html)
