@@ -46,6 +46,17 @@ ion-icon {
     font-size: 1.1rem;
 }
 
+/* code from https://css-tricks.com/inclusively-hidden/ */
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 .card {
     border-radius: 10px;
     background-color: $white;
@@ -122,7 +133,7 @@ ion-icon {
     background-color: $light-grayish-blue;
     color: $very-dark-grayish-blue;
     transition: 0.3s ease-in-out;
-    
+
     &_share {
         z-index: 5;
     }
@@ -150,7 +161,7 @@ ion-icon {
     width: 100%;
     height: 100%;
     border-radius: 0 0 10px 10px;
-    
+
     &__button-group {
         display: flex;
         align-items: center;
