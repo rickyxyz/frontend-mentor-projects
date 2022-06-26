@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Article preview component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="card">
+        <div class="card__banner">
+        </div>
+        <div class="card__content-wrapper">
+            <section class="card__body">
+                <h1 class="card__title">
+                    Shift the overall look and feel by adding these wonderful
+                    touches to furniture in your home
+                </h1>
+                <p class="card__subtitle">
+                    Ever been in a room and felt like something was missing? Perhaps
+                    it felt slightly bare and uninviting. I've got some simple tips
+                    to help you make any room feel complete.
+                </p>
+            </section>
+            <section class="card__footer">
+                <div class="info-section">
+                    <img src="./images/avatar-michelle.jpg" alt="user's avatar image" class="info-section__avatar">
+                    <p class="info-section__wrapper">
+                        <span class="info-section__author">Michelle Appleton</span>
+                        <span class="info-section__publish-date">28 Jun 2020</span>
+                    </p>
+                </div>
+                <div class="share-section" id="popup">
+                    <span class="share-section__text">Share</span>
+                    <ul class="share-section__button-group">
+                        <li class="share-section__social-icon">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </li>
+                        <li class="share-section__social-icon">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </li>
+                        <li class="share-section__social-icon">
+                            <ion-icon name="logo-pinterest"></ion-icon>
+                        </li>
+                    </ul>
+                </div>
+                <button class="button button_share" id="button_share">
+                    <ion-icon name="arrow-redo"></ion-icon>
+                </button>
+            </section>
+        </div>
+    </main>
+    <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+</body>
+
+</html>
