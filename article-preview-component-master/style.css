@@ -104,11 +104,12 @@ ion-icon {
   justify-content: center;
   background-color: hsl(210deg, 46%, 95%);
   color: hsl(217deg, 19%, 35%);
+  transition: 0.3s ease-in-out;
 }
 .button_share {
   z-index: 5;
 }
-.button_active {
+.button_active, .button:hover {
   background-color: hsl(214deg, 17%, 51%);
   color: hsl(0deg, 0%, 100%);
 }
@@ -139,7 +140,7 @@ ion-icon {
 }
 .share-section__social-icon ion-icon {
   font-size: 1.6rem;
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .share-section_visible {
   display: flex;

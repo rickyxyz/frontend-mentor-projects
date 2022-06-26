@@ -121,12 +121,13 @@ ion-icon {
     justify-content: center;
     background-color: $light-grayish-blue;
     color: $very-dark-grayish-blue;
+    transition: 0.3s ease-in-out;
     
     &_share {
         z-index: 5;
     }
 
-    &_active {
+    &_active, &:hover {
         background-color: $desaturated-dark-blue;
         color: $white;
     }
@@ -160,7 +161,7 @@ ion-icon {
     &__social-icon {
         ion-icon {
             font-size: 1.6rem;
-            color: white;
+            color: $white;
         }
     }
 
