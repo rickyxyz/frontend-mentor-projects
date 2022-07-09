@@ -19,6 +19,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [Interactive Rating Component](#interactive-rating-component)
     - [FAQ Accordion Card](#faq-accordion-card)
     - [Article Preview Component](#article-preview-component)
+    - [Base Apparel Coming Soon](#base-apparel-coming-soon)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -72,3 +73,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### Article Preview Component
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/article-preview-component-master)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/article-preview-component-master/index.html)
+
+### Base Apparel Coming Soon
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/base-apparel-coming-soon-master)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/base-apparel-coming-soon-master/index.html)
