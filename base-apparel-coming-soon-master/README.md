@@ -26,12 +26,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop screenshot](./screenshots/base-apparel-coming-soon-page-desktop.png)
+Desktop screenshot
+
+![desktop active state screenshot](./screenshots/base-apparel-coming-soon-page-desktop-active.png.png)
+Desktop active state screenshot
+
+![mobile screenshot](./screenshots/base-apparel-coming-soon-page-mobile.png.png)
+Mobile screenshot
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/base-apparel-coming-soon-master)
+- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/base-apparel-coming-soon-master/index.html)
 
 ## My process
 
