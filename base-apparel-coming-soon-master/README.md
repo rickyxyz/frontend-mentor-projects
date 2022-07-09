@@ -29,10 +29,10 @@ Users should be able to:
 ![desktop screenshot](./screenshots/base-apparel-coming-soon-page-desktop.png)
 Desktop screenshot
 
-![desktop active state screenshot](./screenshots/base-apparel-coming-soon-page-desktop-active.png.png)
+![desktop active state screenshot](./screenshots/base-apparel-coming-soon-page-desktop-active.png)
 Desktop active state screenshot
 
-![mobile screenshot](./screenshots/base-apparel-coming-soon-page-mobile.png.png)
+![mobile screenshot](./screenshots/base-apparel-coming-soon-page-mobile.png)
 Mobile screenshot
 
 ### Links
