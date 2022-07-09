@@ -125,8 +125,9 @@ input, button {
         border-radius: 1.5rem;
         background: linear-gradient($gradient-pink);
         box-shadow: 2px 7px 11px 0px hsl(0deg 36% 70% / 58%);
+        transition: filter 0.3s;
 
-        &:active {
+        &:active, &:hover {
             filter: brightness(1.3);
         }
     }
