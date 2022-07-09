@@ -15,37 +15,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
-<main class="container">
-    <div class="content">
+    <main class="wrapper">
+        <div class="wrapper__left">
+            <header class="header">
+                <img src="./images/logo.svg" alt="base apparel logo" class="header__logo">
+            </header>
 
-        <header class="header"></header>
-        <aside class="banner_inline"></aside>
+            <aside class="banner_inline"></aside>
 
-        <h1 class="content__header">We're coming soon</h1>
+            <div class="content">
+                <h1 class="content__heading">We're<span class="content__heading_black"><br>coming<br>soon</span></h1>
 
-        <p class="content__text">
-            Hello fellow shoppers! We're currently building our new fashion store.
-            Add your email below to stay up-to-date with announcements and our launch deals.
-        </p>
+                <p class="content__text">
+                    Hello fellow shoppers! We're currently building our new fashion store.
+                    Add your email below to stay up-to-date with announcements and our launch deals.
+                </p>
 
-        <form class="email-form">
-            <input type="email" name="email" id="email" class="email-form__input" placeholder="Email Address">
-            <button type="submit" class="button_submit">
-                <span><img src="./images/icon-arrow.svg" alt=">"></span>
-            </button>
-        </form>
-    </div>
-    <aside class="banner_side"></aside>
-</main>
+                <form class="email-form">
+                    <div class="email-form__input-container">
+                        <input type="email" name="email" id="email" class="email-form__input"
+                            placeholder="Email Address">
+                        <img src="./images/icon-error.svg" alt="error" class="email-form__error-icon error_hidden">
+                        <button type="submit" class="email-form__button">
+                            <span><img src="./images/icon-arrow.svg" alt="submit"></span>
+                        </button>
+                    </div>
+                    <span class="email-form__error-text error_hidden">Please provide a valid email</span>
+                </form>
+            </div>
+        </div>
+
+        <aside class="wrapper__right banner_aside"></aside>
+    </main>
 
     <!-- <footer>
         <p class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Your Name Here</a>.
+            Coded by <a href="github.com/rickyxyz">rickyxyz</a>.
         </p>
     </footer> -->
 </body>
