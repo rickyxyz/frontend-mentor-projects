@@ -23,7 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![active desktop viewport screenshot](./screenshot/product-preview-card-component-desktop-active.png)
+
+![mobile viewport screenshot](./screenshot/product-preview-card-component-mobile.png)
 
 ### Links
 
