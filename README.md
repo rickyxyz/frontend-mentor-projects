@@ -77,3 +77,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### Base Apparel Coming Soon
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/base-apparel-coming-soon-master)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/base-apparel-coming-soon-master/index.html)
+
+### Product Preview Card Component
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/product-preview-card-component-main)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/product-preview-card-component-main/index.html)
