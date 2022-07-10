@@ -1,0 +1,148 @@
+body,
+main,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+button,
+img {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font: 2rem "Fraunces", serif;
+  color: hsl(212deg, 21%, 14%);
+}
+
+p,
+span {
+  font: 14px "Montserrat", sans-serif;
+  color: hsl(228deg, 12%, 48%);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+body {
+  background: hsl(30deg, 38%, 92%);
+  min-height: 100vh;
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: hsl(0deg, 0%, 100%);
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 375px;
+}
+.card__banner {
+  background: url("./images/image-product-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 240px;
+}
+.card__content {
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.card__category {
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+}
+.card__heading {
+  letter-spacing: -1px;
+  line-height: 2.15rem;
+  margin-bottom: 0.5rem;
+}
+.card__text {
+  letter-spacing: -0.5px;
+  line-height: 1.5rem;
+  margin-bottom: 2.2rem;
+}
+.card__prices {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1.5rem;
+  row-gap: 0.5rem;
+}
+.card__prices_green {
+  font: 2rem "Fraunces", serif;
+  color: hsl(158deg, 36%, 37%);
+}
+.card__prices_strikethrough {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: line-through;
+}
+.card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 10px;
+  background-color: hsl(158deg, 36%, 37%);
+  color: white;
+  min-height: 50px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+}
+.card__button-icon {
+  height: 1rem;
+}
+.card__button:hover, .card__button:active {
+  background-color: hsl(159deg, 61%, 16%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media screen and (min-width: 1100px) {
+  .card {
+    max-width: 42vw;
+    height: 450px;
+    display: flex;
+    gap: 0;
+  }
+  .card__banner {
+    background: url("./images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+  }
+  .card__content {
+    padding: 2rem;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  .card__heading {
+    margin-bottom: 0rem;
+  }
+  .card__text {
+    margin-bottom: 0rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
