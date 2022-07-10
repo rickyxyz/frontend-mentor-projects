@@ -5,18 +5,125 @@ $dark-grayish-blue: hsl(228, 12%, 48%);
 $white: hsl(0, 0%, 100%);
 $breakpoint-desktop: 1000px;
 
-$fraunces : 'Fraunces', serif;
-$Montserrat: 'Montserrat', sans-serif;
+$fraunces : 'Fraunces',
+serif;
+$montserrat: 'Montserrat', sans-serif;
 
-html {
-    font-size: 14px;
-}
-
-body, main, section, header, footer, div, span, h1, h2, h3, p, button, img {
+body,
+main,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+button,
+img {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+h1 {
+    font: 2rem $fraunces;
+    color: $very-dark-blue;
+}
+
+p,
+span {
+    font: 14px $montserrat;
+    color: $dark-grayish-blue;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+body {
+    background: $cream;
+    min-height: 100vh;
+    padding: 1.2rem;
+}
+
+.card {
+    background: $white;
+    overflow: hidden;
+    border-radius: 10px;
+
+    &__banner {
+        background: url("./images/image-product-desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 240px;
+    }
+
+    &__content {
+        padding: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    &__category {
+        text-transform: uppercase;
+        letter-spacing: 3.2px;
+    }
+
+    &__heading {
+        letter-spacing: -1px;
+        line-height: 2.15rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__text {
+        letter-spacing: -0.5px;
+        line-height: 1.5rem;
+        margin-bottom: 2.2rem;
+    }
+
+    &__prices {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+
+        &_green {
+            font: 2rem $fraunces;
+            color: $dark-cyan;
+        }
+
+        &_strikethrough {
+            font-family: $montserrat;
+            text-decoration: line-through;
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 10px;
+        background-color: $dark-cyan;
+        color: white;
+        min-height: 50px;
+        font-weight: 700;
+        letter-spacing: 1px;
+
+        &-icon {
+            height: 100%;
+        }
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
