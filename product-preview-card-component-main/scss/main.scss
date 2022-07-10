@@ -1,0 +1,22 @@
+$dark-cyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+$very-dark-blue: hsl(212, 21%, 14%);
+$dark-grayish-blue: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+$breakpoint-desktop: 1000px;
+
+$fraunces : 'Fraunces', serif;
+$Montserrat: 'Montserrat', sans-serif;
+
+html {
+    font-size: 14px;
+}
+
+div, span, h1, h2, h3, p, button, img {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
