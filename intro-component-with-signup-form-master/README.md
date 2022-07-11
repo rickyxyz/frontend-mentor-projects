@@ -30,7 +30,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop viewport](./screenshot/intro-component-with-sign-up-form-desktop.png)
+desktop viewport
+
+![desktop viewport active state](./screenshot/intro-component-with-sign-up-form-desktop-active.png)
+desktop viewport active state
+
+![mobile viewport](./screenshot/intro-component-with-sign-up-form-mobile.png)
+mobile viewport
 
 ### Links
 
