@@ -22,7 +22,7 @@ body {
     min-height: 100vh;
     padding: 13vh 1.5rem 5vh 1.5rem;
     background: url("./images/bg-intro-mobile.png") $red;
-    background-repeat: repeat-y;
+    background-repeat: space repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,10 @@ input, button {
     outline: none;
     border: none;
     background-color: transparent;
+}
+
+button {
+    cursor: pointer;
 }
 
 .content {
@@ -98,6 +102,11 @@ input, button {
         border-radius: 5px;
         box-shadow: $shadow-green;
         background-color: $green;
+        transition: filter 0.5s;
+
+        &:active, &:hover {
+            filter: brightness(1.15);
+        }
     }
 
     &__fineprint {
