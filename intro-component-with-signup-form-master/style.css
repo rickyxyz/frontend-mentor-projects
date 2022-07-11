@@ -152,7 +152,7 @@ button {
   body {
     background: url("./images/bg-intro-desktop.png") hsl(0deg, 100%, 74%);
     background-repeat: repeat;
-    padding: 5vw;
+    padding: 1vw;
   }
 
   .content {
