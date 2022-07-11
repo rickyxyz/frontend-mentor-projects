@@ -20,6 +20,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [FAQ Accordion Card](#faq-accordion-card)
     - [Article Preview Component](#article-preview-component)
     - [Base Apparel Coming Soon](#base-apparel-coming-soon)
+    - [Intro Component With Sign-Up Form](#intro-component-with-sign-up-form)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -81,3 +82,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### Product Preview Card Component
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/product-preview-card-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/product-preview-card-component-main/index.html)
+
+### Intro Component With Sign-Up Form
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/intro-component-with-signup-form-master)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/intro-component-with-signup-form-master/index.html)
