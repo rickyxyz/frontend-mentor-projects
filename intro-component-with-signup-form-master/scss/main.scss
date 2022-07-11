@@ -1,0 +1,220 @@
+$red: hsl(0, 100%, 74%);
+$green: hsl(154, 59%, 51%);
+$blue: hsl(248, 32%, 49%);
+$dark-blue: hsl(249, 10%, 26%);
+$grayish-blue: hsl(246, 25%, 77%);
+$white: hsl(0, 0%, 100%);
+$shadow-black: 0 10px hsla(0, 0%, 0%, 0.15);
+$shadow-green: 0 5px hsl(154, 48%, 46%);
+
+$font-stack: 'Poppins', sans-serif;
+
+$breakpoint-desktop: 1100px;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px $font-stack;
+    min-height: 100vh;
+    padding: 13vh 1.5rem 5vh 1.5rem;
+    background: url("./images/bg-intro-mobile.png") $red;
+    background-repeat: space repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+button {
+    cursor: pointer;
+}
+
+.content {
+    width: clamp(100px, 90vw, 500px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem 3vw;
+    text-align: center;
+    color: $white;
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    &__title {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        letter-spacing: -0.5px;
+    }
+
+    &__subtitle {
+        line-height: 1.6rem;
+    }
+
+    &__promo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: clamp(40px, 13vh, 90px);
+        padding: 0.5rem 4rem;
+        background-color: $blue;
+        border-radius: 10px;
+        box-shadow: $shadow-black;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+.signup-form {
+    border-radius: 10px;
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+    padding: 1.4rem;
+    color: $grayish-blue;
+    background: $white;
+    box-shadow: $shadow-black;
+
+    &__submit-button {
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+        height: 3.3rem;
+        border-radius: 5px;
+        box-shadow: $shadow-green;
+        background-color: $green;
+        transition: filter 0.5s;
+
+        &:active, &:hover {
+            filter: brightness(1.15);
+        }
+    }
+
+    &__fineprint {
+        padding: 0 1.2rem;
+        font-size: 0.7rem;
+        line-height: 1.4rem;
+        font-weight: 400;
+
+        & strong {
+            color: $red;
+            font-weight: 700;
+        }
+    }
+}
+
+.input-container {
+    position: relative;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    &__input {
+        border: 1px solid $grayish-blue;
+        border-radius: 5px;
+        height: 3.7rem;
+        font-size: 1rem;
+        padding: 0 1rem;
+        font-weight: 700;
+    }
+
+    &__error-icon {
+        position: absolute;
+        height: 1rem;
+        margin-top: 1.1rem;
+        right: 1rem;
+
+        & img {
+            height: 1.5rem;
+        }
+    }
+
+    &__error-message {
+        font-size: 0.9rem;
+        color: $red;
+    }
+}
+
+.attribution {
+    display: none;
+    margin-top: 1rem;
+    font-size: 11px;
+    text-align: center;
+
+    & a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.input_error {
+    border: solid 2px $red;
+    color: $red;
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+    body {
+        background: url("./images/bg-intro-desktop.png") $red;
+        background-repeat: repeat;
+        padding: 5vw;
+    }
+
+    .content {
+        flex-direction: row;
+        width: clamp(800px, 78vw, 1200px);
+
+        &__header {
+            text-align: left;
+            width: 50%;
+        }
+
+        &__title {
+            font-size: 3.2rem;
+            line-height: 3.6rem;
+            letter-spacing: -1px;
+        }
+
+        &__body {
+            width: 50%;
+        }
+
+        &__promo {
+            height: inherit;
+            height: 3.9rem;
+        }
+    }
+
+    .signup-form {
+        padding: 2.5rem;
+        gap: 1rem;
+    }
+
+    .input-container {
+        &__input {
+            padding: 0 2rem;
+        }
+    }
+}
