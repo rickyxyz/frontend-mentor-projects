@@ -35,10 +35,12 @@ input, button {
 }
 
 .content {
-    width: clamp(100px,90vw,500px);
+    width: clamp(100px, 90vw, 500px);
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem 3vw;
     text-align: center;
     color: $white;
 
@@ -155,6 +157,15 @@ input, button {
     }
 }
 
+.hidden {
+    display: none;
+}
+
+.input_error {
+    border: solid 2px $red;
+    color: $red;
+}
+
 @media screen and (min-width: $breakpoint-desktop) {
     body {
         background: url("./images/bg-intro-desktop.png") $red;
@@ -164,10 +175,7 @@ input, button {
 
     .content {
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
         width: clamp(800px, 78vw, 1200px);
-        gap: 3vw;
 
         &__header {
             text-align: left;

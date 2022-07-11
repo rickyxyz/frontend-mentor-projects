@@ -25,7 +25,9 @@ input, button {
   width: clamp(100px, 90vw, 500px);
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem 3vw;
   text-align: center;
   color: hsl(0deg, 0%, 100%);
 }
@@ -129,6 +131,15 @@ input, button {
   color: hsl(228deg, 45%, 44%);
 }
 
+.hidden {
+  display: none;
+}
+
+.input_error {
+  border: solid 2px hsl(0deg, 100%, 74%);
+  color: hsl(0deg, 100%, 74%);
+}
+
 @media screen and (min-width: 1100px) {
   body {
     background: url("./images/bg-intro-desktop.png") hsl(0deg, 100%, 74%);
@@ -138,10 +149,7 @@ input, button {
 
   .content {
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     width: clamp(800px, 78vw, 1200px);
-    gap: 3vw;
   }
   .content__header {
     text-align: left;
