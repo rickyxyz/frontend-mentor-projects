@@ -29,13 +29,14 @@ body {
     align-items: center;
 }
 
-input, button {
+input, button, input:focus {
+    outline: none;
     border: none;
     background-color: transparent;
 }
 
 .content {
-    max-width: 500px;
+    width: clamp(100px,90vw,500px);
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -62,7 +63,7 @@ input, button {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 13vh;
+        height: clamp(40px, 13vh, 90px);
         padding: 0.5rem 4rem;
         background-color: $blue;
         border-radius: 10px;
@@ -89,7 +90,9 @@ input, button {
     &__submit-button {
         color: $white;
         text-transform: uppercase;
-        font-weight: 700;
+        font-weight: 600;
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
         height: 3.3rem;
         box-shadow: $shadow-green;
         background-color: $green;
@@ -113,6 +116,7 @@ input, button {
     text-align: right;
     display: flex;
     flex-direction: column;
+    gap: 3px;
 
     &__input-box {
         position: relative;
@@ -122,6 +126,7 @@ input, button {
     }
 
     &__input {
+        font-size: 1rem;
         padding: 0 1rem;
         width: 100%;
         height: 100%;
@@ -137,8 +142,7 @@ input, button {
     }
 
     &__error-message {
-        display: none;
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         color: $red;
     }
 }
@@ -166,7 +170,7 @@ input, button {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        max-width: 78vw;
+        width: clamp(800px, 78vw, 1200px);
         gap: 3vw;
 
         &__header {
@@ -193,5 +197,16 @@ input, button {
     .signup-form {
         padding: 2.5rem;
         gap: 1rem;
+    }
+
+    .input-container {
+        &__input {
+            padding: 0 2rem;
+        }
+
+        &__error-icon {
+            height: 36%;
+            right: 2rem;
+        }
     }
 }

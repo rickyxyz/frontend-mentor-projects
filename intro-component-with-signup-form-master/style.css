@@ -16,13 +16,14 @@ body {
   align-items: center;
 }
 
-input, button {
+input, button, input:focus {
+  outline: none;
   border: none;
   background-color: transparent;
 }
 
 .content {
-  max-width: 500px;
+  width: clamp(100px, 90vw, 500px);
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -46,7 +47,7 @@ input, button {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 13vh;
+  height: clamp(40px, 13vh, 90px);
   padding: 0.5rem 4rem;
   background-color: hsl(248deg, 32%, 49%);
   border-radius: 10px;
@@ -71,7 +72,9 @@ input, button {
 .signup-form__submit-button {
   color: hsl(0deg, 0%, 100%);
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
   height: 3.3rem;
   box-shadow: 0 5px hsl(154deg, 48%, 46%);
   background-color: hsl(154deg, 59%, 51%);
@@ -92,6 +95,7 @@ input, button {
   text-align: right;
   display: flex;
   flex-direction: column;
+  gap: 3px;
 }
 .input-container__input-box {
   position: relative;
@@ -100,6 +104,7 @@ input, button {
   height: 3.7rem;
 }
 .input-container__input {
+  font-size: 1rem;
   padding: 0 1rem;
   width: 100%;
   height: 100%;
@@ -113,8 +118,7 @@ input, button {
   transform: translate(0, -50%);
 }
 .input-container__error-message {
-  display: none;
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   color: hsl(0deg, 100%, 74%);
 }
 
@@ -140,7 +144,7 @@ input, button {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-width: 78vw;
+    width: clamp(800px, 78vw, 1200px);
     gap: 3vw;
   }
   .content__header {
@@ -163,6 +167,14 @@ input, button {
   .signup-form {
     padding: 2.5rem;
     gap: 1rem;
+  }
+
+  .input-container__input {
+    padding: 0 2rem;
+  }
+  .input-container__error-icon {
+    height: 36%;
+    right: 2rem;
   }
 }
 
