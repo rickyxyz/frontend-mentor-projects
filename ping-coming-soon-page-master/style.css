@@ -1,8 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+button, input, input:focus {
+  outline: none;
+  border: none;
+}
+
+body {
+  font-size: 12px;
+  font-family: "Libre Franklin", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header {
+  padding-top: 3.2rem;
+  margin-bottom: 1.2rem;
+}
+.header__logo {
+  width: 3.5rem;
+  margin-bottom: 2.4rem;
+}
+.header__heading {
+  font-size: 1.3rem;
+  letter-spacing: 0.7px;
+}
+.header__heading_thin {
+  font-weight: 400;
+  color: hsl(0deg, 0%, 59%);
+}
+
+.content {
+  width: 90%;
+  margin-bottom: 4.2rem;
+}
+.content__heading {
+  margin-bottom: 2rem;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.email-form__input-container {
+  position: relative;
+}
+.email-form__input-field {
+  width: 100%;
+  border: 1px solid hsl(223deg, 100%, 88%);
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 2rem;
+}
+.email-form__input-field:focus {
+  border: 1px solid hsl(223deg, 100%, 88%);
+}
+.email-form__input-field:invalid:not(:focus) {
+  border: 1px solid hsl(354deg, 100%, 66%);
+}
+.email-form__input-field:invalid:not(:focus) ~ em {
+  display: block;
+}
+.email-form__input-field:focus + label, .email-form__input-field:not(:placeholder-shown) + label {
+  display: none;
+}
+.email-form__label {
+  color: hsl(223deg, 100%, 88%);
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.email-form__error {
+  color: hsl(354deg, 100%, 66%);
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: none;
+}
+.email-form__button_submit {
+  color: white;
+  font-weight: 600;
+  height: 40px;
+  border-radius: 20px;
+  background-color: hsl(223deg, 87%, 63%);
+  box-shadow: 0px 9px 10px -5px hsla(223deg, 87%, 63%, 0.54);
+  transition: all 0.2s ease-in;
+}
+.email-form__button_submit:hover {
+  filter: brightness(1.2) contrast(0.9);
+  box-shadow: none;
+}
+
+.illustration {
+  margin-bottom: 7.4rem;
+  width: 100%;
+}
+.illustration > img {
+  width: 100%;
+}
+
+.footer__social-links {
+  color: hsl(223deg, 87%, 63%);
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.9rem;
+  margin-bottom: 1.7rem;
+}
+.footer__social-links > li {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(223deg, 100%, 88%);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in;
+}
+.footer__social-links > li:hover {
+  background-color: hsl(223deg, 87%, 63%);
+  color: white;
+}
+.footer__copyright {
+  font-size: 10px;
+  color: hsl(0deg, 0%, 59%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   color: hsl(228deg, 45%, 44%);
 }
