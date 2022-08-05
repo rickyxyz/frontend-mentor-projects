@@ -84,14 +84,6 @@ body {
             border: 1px solid $pale-blue;
         }
 
-        &:invalid:not(:focus) {
-            border: 1px solid $light-red;
-        }
-
-        &:invalid:not(:focus)~em{
-            display: block;
-        }
-
         &:focus+label, &:not(:placeholder-shown)+label{
             display: none;
         }
@@ -101,8 +93,7 @@ body {
         color: $pale-blue;
         position: absolute;
         left: 2rem;
-        top: 50%;
-        transform: translate(0, -50%);
+        top: 13px;
     }
 
     &__error {
@@ -110,7 +101,6 @@ body {
         font-size: 10px;
         margin-top: 5px;
         margin-bottom: 15px;
-        display: none;
     }
 
     &__button_submit {
@@ -177,6 +167,14 @@ body {
     & a {
         color: hsl(228, 45%, 44%);
     }
+}
+
+.hidden {
+    display: none;
+}
+
+.input_error {
+    border: 1px solid $light-red;
 }
 
 @media screen and (min-width: $breakpoint-desktop) {

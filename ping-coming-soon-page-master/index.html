@@ -12,6 +12,8 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
@@ -27,11 +29,11 @@
         </header>
         <main class="content">
             <p class="content__heading">Subscribe and get notified</p>
-            <form action="#" class="email-form">
+            <form action="#" class="email-form" name="email-form">
                 <div class="email-form__input-container">
-                    <input type="email" name="email" id="email" class="email-form__input-field" placeholder=" ">
+                    <input type="email" name="email" id="email" class="email-form__input-field" placeholder=" " required pattern="^\S+@\S+\.\S+$">
                     <label for="email" class="email-form__label">Your email address...</label>
-                    <em class="email-form__error">Please provide a valid email address</em>
+                    <em class="email-form__error hidden">Please provide a valid email address</em>
                 </div>
                 <button type="submit" class="email-form__button_submit">
                     Notify Me
