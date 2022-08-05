@@ -21,6 +21,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [Article Preview Component](#article-preview-component)
     - [Base Apparel Coming Soon](#base-apparel-coming-soon)
     - [Intro Component With Sign-Up Form](#intro-component-with-sign-up-form)
+    - [Ping Single Column Coming Soon Page](#ping-single-column-coming-soon-page)
 
 ## Newbie
 ### NFT Preview Card Component Main
@@ -86,3 +87,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 ### Intro Component With Sign-Up Form
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/intro-component-with-signup-form-master)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/intro-component-with-signup-form-master/index.html)
+
+### Ping Single Column Coming Soon Page
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/ping-coming-soon-page-master)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/ping-coming-soon-page-master/index.html)
