@@ -14,9 +14,12 @@ button, input, input:focus {
 }
 
 body {
+  min-height: 100vh;
+}
+
+.wrapper {
   font-size: 12px;
   font-family: "Libre Franklin", sans-serif;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -146,6 +149,33 @@ body {
 }
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    width: 50vw;
+  }
+
+  .email-form {
+    flex-direction: row;
+  }
+  .email-form__input-container {
+    width: 70%;
+  }
+  .email-form__button_submit {
+    flex-grow: 1;
+  }
+  .email-form__error {
+    text-align: left;
+    padding-left: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
