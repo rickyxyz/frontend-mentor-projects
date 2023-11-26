@@ -1,11 +1,17 @@
 # Frontend Mentor Projects
 
-Hello, welcome to my Frontend Mentor Projects repository. Please check the table of contents for links to each project.
+Hello, welcome to my Frontend Mentor Projects repository.
+To see links to individual solutions, please browse the [Table of Contents](#table-of-contents) below.
+To see browse the gallery of projects, please click the link below.
+
+👉 [interactive solutions gallery](https://rickyxyz.github.io/frontendmentor-projects/) 👈
 
 ## Table of Contents
 
 - [Frontend Mentor Projects](#frontend-mentor-projects)
   - [Table of Contents](#table-of-contents)
+  - [Junior](#junior)
+    - [Newsletter Sign Up With Success Message Main](#results-summary-componentn-main)
   - [Newbie](#newbie)
     - [NFT Preview Card Component Main](#nft-preview-card-component-main)
     - [QR Code Component Main](#qr-code-component-main)
@@ -23,6 +29,14 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
     - [Base Apparel Coming Soon](#base-apparel-coming-soon)
     - [Intro Component With Sign-Up Form](#intro-component-with-sign-up-form)
     - [Ping Single Column Coming Soon Page](#ping-single-column-coming-soon-page)
+    - [Results Summary Component Main](#results-summary-component-main)
+
+## Junior
+
+### Newsletter Sign Up With Success Message Main
+
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/newsletter-sign-up-with-success-message-main)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/newsletter-sign-up-with-success-message-main/index.html)
 
 ## Newbie
 
@@ -111,12 +125,7 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/ping-coming-soon-page-master)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/ping-coming-soon-page-master/index.html)
 
-### Results Summary Componentn Main
+### Results Summary Component Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/results-summary-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/results-summary-component-main/index.html)
-
-### Newsletter Sign Up With Success Message Main
-
-- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/newsletter-sign-up-with-success-message-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/newsletter-sign-up-with-success-message-main/index.html)
