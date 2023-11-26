@@ -115,3 +115,8 @@ Hello, welcome to my Frontend Mentor Projects repository. Please check the table
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/results-summary-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/results-summary-component-main/index.html)
+
+### Newsletter Sign Up With Success Message Main
+
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/newsletter-sign-up-with-success-message-main)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/newsletter-sign-up-with-success-message-main/index.html)
