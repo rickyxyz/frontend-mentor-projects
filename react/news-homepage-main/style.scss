@@ -1,0 +1,89 @@
+$soft-orange: hsl(35, 77%, 62%);
+$soft-red: hsl(5, 85%, 63%);
+$off-white: hsl(36, 100%, 99%);
+$grayish-blue: hsl(233, 8%, 79%);
+$dark-grayish-blue: hsl(236, 13%, 42%);
+$very-dark-blue: hsl(240, 100%, 5%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-grayish-blue;
+
+  &:visited {
+    color: $dark-grayish-blue;
+  }
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  background-color: $off-white;
+}
+
+body {
+  min-height: 100vh;
+  background-color: $off-white;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.main {
+  padding: 4rem;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "hero aside"
+    "feed feed";
+  grid-template-columns: 66% 1fr;
+  grid-template-rows: 4rem 1fr 20rem;
+}
+
+.header {
+  width: 100%;
+  grid-area: header;
+  display: flex;
+
+  nav {
+    flex-grow: 1;
+    display: flex;
+  }
+
+  &__navigation {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.hero {
+  grid-area: hero;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.feed {
+  grid-area: feed;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: none;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
