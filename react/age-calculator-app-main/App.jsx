@@ -148,7 +148,6 @@ function App() {
 
   return (
     <main className="card">
-      <h1 className="card__title">Age Calculator</h1>
       <form className="card__form" noValidate onSubmit={handleSubmit}>
         <div className="card__input">
           <label
