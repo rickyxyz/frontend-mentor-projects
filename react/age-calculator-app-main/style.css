@@ -68,6 +68,10 @@ body {
   letter-spacing: 2px;
 }
 
+.input_label-error {
+  color: var(--light-red);
+}
+
 .card__input {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -78,7 +82,15 @@ body {
 }
 
 .input_error {
+  color: var(--light-red);
+  font-style: italic;
+  font-weight: 400;
+  text-transform: none;
   font-size: 0.5rem;
+}
+
+.input_error:first-letter {
+  text-transform: uppercase;
 }
 
 .input_field {
@@ -89,6 +101,10 @@ body {
   letter-spacing: -0.7px;
   padding: 0 0.9rem;
   font-weight: 700;
+}
+
+.input_field-error {
+  border: 1px solid var(--light-red);
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -168,6 +184,10 @@ input[type="number"] {
   color: var(--purple);
 }
 
+.number-counter {
+  transition: all 0.5s ease-in-out;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -224,9 +244,6 @@ input[type="number"] {
 
   .input_error {
     font-size: 0.9rem;
-    font-style: italic;
-    font-weight: 400;
-    text-transform: none;
   }
 
   .submit_button {
