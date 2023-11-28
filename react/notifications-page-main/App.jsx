@@ -1,4 +1,5 @@
 import "./style.css";
+import { useEffect, useState, useMemo } from "react";
 import markWebber from "./assets/images/avatar-mark-webber.webp";
 import angelaGray from "./assets/images/avatar-angela-gray.webp";
 import jacobThompson from "./assets/images/avatar-jacob-thompson.webp";
@@ -132,15 +133,50 @@ function Notification({ notification }) {
 }
 
 function App() {
+  const [notifications, setNotifications] = useState(NOTIFICATIONS);
+  const unreadCount = useMemo(
+    () =>
+      notifications.reduce((count, notification) => {
+        return (count += notification.isUnread ? 1 : 0);
+      }, 0),
+    [notifications]
+  );
+
+  const handleReadAll = () => {
+    if (unreadCount < 1) return;
+
+    const duration = 110;
+    let start = Date.now();
+    const notificationPing = document.querySelectorAll(".notification__ping");
+    const notifcationUnread = document.querySelectorAll(".notification-unread");
+    let animation = requestAnimationFrame(function readAnimation(timestamp) {
+      let interval = Date.now() - start;
+
+      notificationPing.forEach((p) => {
+        p.style.opacity = 1 - interval / duration;
+      });
+      notifcationUnread.forEach((u) => {
+        u.style.backgroundColor = `hsl(210, 60%, ${
+          98 + (2 * interval) / duration
+        }%)`;
+      });
+
+      if (interval < duration) requestAnimationFrame(readAnimation);
+    });
+    setTimeout(() => {
+      setNotifications((ns) => ns.map((n) => ({ ...n, isUnread: false })));
+    }, duration + 10);
+  };
+
   return (
     <>
       <header className="header">
         <h1>Notifications</h1>
-        <span>3</span>
-        <button>Mark all as read</button>
+        <span>{unreadCount}</span>
+        <button onClick={handleReadAll}>Mark all as read</button>
       </header>
       <main className="notification_list">
-        {NOTIFICATIONS.map((notification) => (
+        {notifications.map((notification) => (
           <Notification
             key={`n-${notification.name}-${notification.time}}`}
             notification={notification}
