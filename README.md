@@ -13,6 +13,7 @@ To see browse the gallery of projects, please click the link below.
   - [Junior](#junior)
     - [Newsletter Sign Up With Success Message Main](#newsletter-sign-up-with-success-message-main)
     - [Age Calculator App Main](#age-calculator-app-main)
+    - [News Homepage Main](#news-homepage-main)
   - [Newbie](#newbie)
     - [NFT Preview Card Component Main](#nft-preview-card-component-main)
     - [QR Code Component Main](#qr-code-component-main)
@@ -43,6 +44,11 @@ To see browse the gallery of projects, please click the link below.
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/age-calculator-app-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/age-calculator-app-main/index.html)
+
+### News Homepage Main
+
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/news-homepage-main)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/news-homepage-main/index.html)
 
 ## Newbie
 
