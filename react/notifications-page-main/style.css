@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: hsl(210, 60%, 98%);
+  min-height: 100vh;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: hsl(224, 21%, 14%);
+  letter-spacing: -0.2px;
+  word-spacing: 1px;
+}
+
+button {
+  border: none;
+  background-color: none;
+  background: none;
+  color: hsl(219, 12%, 42%);
+}
+
+#root {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.header h1 {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.header span {
+  background-color: hsl(219, 85%, 26%);
+  color: hsl(0, 0%, 100%);
+  width: 2rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
+.header button {
+  margin-left: auto;
+}
+
+.notification_list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.notification {
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  gap: 0.8rem;
+}
+.notification__ping {
+  margin-left: 0.2rem;
+  display: inline-block;
+  background-color: hsl(1, 90%, 64%);
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 100%;
+}
+.notification-unread {
+  background-color: hsl(210, 60%, 98%);
+}
+.notification__profile_picture {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+}
+.notification main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.notification__name {
+  font-weight: 800;
+}
+.notification__extra_group {
+  font-weight: 800;
+  color: hsl(219, 85%, 26%);
+}
+.notification__extra_post {
+  font-weight: 800;
+  color: hsl(219, 12%, 42%);
+}
+.notification__time {
+  color: hsl(219, 14%, 63%);
+}
+.notification__message {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border: 1px solid hsl(205, 33%, 90%);
+  border-radius: 5px;
+}
+.notification__picture img {
+  width: 2.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 50rem) {
+  body {
+    justify-content: center;
+    align-items: center;
+  }
+  #root {
+    font: 1rem;
+    border-radius: 10px;
+    max-width: 45rem;
+    padding: 2.5rem 1.8rem 0.6rem 1.8rem;
+    gap: 1.8rem;
+  }
+  .header {
+    font-size: 0.9rem;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  .header span {
+    height: 1.5rem;
+  }
+  .notification__profile_picture {
+    height: 3rem;
+    width: 3rem;
+  }
+  .notification__message {
+    line-height: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
