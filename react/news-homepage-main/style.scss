@@ -55,11 +55,13 @@ h3 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+  letter-spacing: -0.5px;
 }
 
 h3 {
   font-size: 1.2rem;
+  letter-spacing: 0.5px;
 }
 
 p {
@@ -84,23 +86,21 @@ body {
   font-weight: 400;
 }
 
-.main {
-  padding: 1rem;
-  display: grid;
-  grid-template-areas:
-    "header"
-    "hero"
-    "aside"
-    "feed";
-  grid-template-columns: calc(100vw - 2rem);
-  grid-template-rows: 40px max-content auto auto;
-  grid-row-gap: 1.8rem;
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .header {
+  padding: 1.2rem 1rem 0 1rem;
   width: 100%;
   grid-area: header;
   display: flex;
+
+  &__logo {
+    height: 2rem;
+  }
 
   nav {
     flex-grow: 1;
@@ -125,6 +125,18 @@ body {
   }
 }
 
+.main {
+  padding: 1rem;
+  display: grid;
+  grid-template-areas:
+    "hero"
+    "aside"
+    "feed";
+  grid-template-columns: calc(100vw - 2rem);
+  grid-template-rows: max-content auto auto;
+  grid-row-gap: 3.8rem;
+}
+
 .hero {
   grid-area: hero;
   display: flex;
@@ -132,26 +144,35 @@ body {
   align-items: flex-start;
   gap: 1rem;
 
+  picture,
   img {
     align-self: center;
     max-width: calc(100vw - 2rem);
     width: 100%;
     height: auto;
+    margin-bottom: 0.5rem;
   }
 
   h2 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     font-weight: 800;
-    line-height: 2.6rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.4px;
+  }
+
+  p {
+    line-height: 1.6rem;
   }
 
   a {
+    margin-top: 0.6rem;
     background-color: $soft-red;
     color: $off-white;
     text-transform: uppercase;
-    padding: 0.8rem 1.5rem;
+    padding: 1rem 2rem;
     font-weight: 700;
-    flex-grow: 0;
+    font-size: 0.9rem;
+    letter-spacing: 3.5px;
   }
 }
 
@@ -159,6 +180,7 @@ body {
   grid-area: aside;
   background-color: $very-dark-blue;
   padding: 1.5rem;
+  padding-bottom: 0;
   display: flex;
   flex-direction: column;
 
@@ -178,7 +200,7 @@ body {
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
-      padding: 1.8rem 0;
+      padding: 2rem 0;
 
       h3 {
         color: $off-white;
@@ -193,24 +215,25 @@ body {
 
 .feed {
   grid-area: feed;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 2rem;
-  // make the feed grid auto-flow to the right to automatically add columns
+  justify-content: left;
+
+  @media screen and (min-width: 21rem) {
+    grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  }
 
   &__article {
     height: max-content;
     display: grid;
-    grid-template-columns: 1fr 100%;
+    grid-template-columns: 6rem 1fr;
     grid-template-rows: min-content min-content auto;
-    grid-row-gap: 0.15rem;
-    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 1.5rem;
 
     img {
       grid-row: span 3;
-      max-height: 10rem;
-      height: 100%;
-      width: auto;
+      max-height: 8rem;
     }
 
     span {
@@ -241,5 +264,75 @@ body {
 
   a {
     color: hsl(228, 45%, 44%);
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  .hero {
+    display: grid;
+    grid-template-columns: 14fr 13fr;
+    grid-template-areas:
+      "image image"
+      "title text"
+      "title button";
+    grid-row-gap: 1.6rem;
+
+    picture,
+    img {
+      grid-area: image;
+      height: 100%;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 3.6rem;
+      line-height: 3.6rem;
+      grid-area: title;
+    }
+
+    p {
+      grid-area: text;
+      line-height: 1.5rem;
+    }
+
+    a {
+      grid-area: button;
+      max-width: 11.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3rem 0 0 0;
+  }
+  #root {
+    justify-content: center;
+    align-items: center;
+    max-width: 72rem;
+    gap: 2rem;
+  }
+  .header {
+    &__logo {
+      height: 2.5rem;
+    }
+  }
+  .main {
+    grid-template-areas:
+      "hero aside"
+      "feed feed";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: max-content auto;
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+  }
+
+  .aside {
+    h2 {
+      font-size: 2.5rem;
+    }
   }
 }

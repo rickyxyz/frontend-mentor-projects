@@ -1,38 +1,54 @@
 import "./style.css";
+import heroMobile from "./assets/images/image-web-3-mobile.jpg";
+import heroDesktop from "./assets/images/image-web-3-desktop.jpg";
+import retroPC from "./assets/images/image-retro-pcs.jpg";
+import topLaptop from "./assets/images/image-top-laptops.jpg";
+import gamingGrowth from "./assets/images/image-gaming-growth.jpg";
 
 function App() {
   return (
     <>
+      <header className="header">
+        <h1>
+          <img
+            src="./assets/images/logo.svg"
+            alt="Logo"
+            className="header__logo"
+          />
+        </h1>
+        <nav className="navigation-maximized">
+          <ul className="header__navigation">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">New</a>
+            </li>
+            <li>
+              <a href="">Popular</a>
+            </li>
+            <li>
+              <a href="">Trending</a>
+            </li>
+            <li>
+              <a href="">Categories</a>
+            </li>
+          </ul>
+        </nav>
+        <button className="navigation-minimized">
+          <img src="./assets/images/icon-menu.svg" alt="" />
+        </button>
+      </header>
       <main className="main">
-        <header className="header">
-          <h1>
-            <img src="./assets/images/logo.svg" alt="Logo" />
-          </h1>
-          <nav className="navigation-maximized">
-            <ul className="header__navigation">
-              <li>
-                <a href="">Home</a>
-              </li>
-              <li>
-                <a href="">New</a>
-              </li>
-              <li>
-                <a href="">Popular</a>
-              </li>
-              <li>
-                <a href="">Trending</a>
-              </li>
-              <li>
-                <a href="">Categories</a>
-              </li>
-            </ul>
-          </nav>
-          <button className="navigation-minimized">
-            <img src="./assets/images/icon-menu.svg" alt="" />
-          </button>
-        </header>
         <article className="hero">
-          <img src="./assets/images/image-web-3-mobile.jpg" alt="" />
+          <picture>
+            <source
+              media="(min-width: 60rem)"
+              srcset={heroDesktop}
+              alt="featured image"
+            />
+            <img src={heroMobile} alt="featured image" />
+          </picture>
           <h2>The Bright Future of Web 3.0?</h2>
           <p>
             We dive into the next evolution of the web that claims to put the
@@ -66,19 +82,19 @@ function App() {
         </aside>
         <section className="feed">
           <article className="feed__article">
-            <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+            <img src={retroPC} alt="" />
             <span>01</span>
             <h2>Reviving Retro PCs</h2>
             <p>What happens when old PCs are given modern upgrades?</p>
           </article>
           <article className="feed__article">
-            <img src="./assets/images/image-top-laptops.jpg" alt="" />
+            <img src={topLaptop} alt="" />
             <span>02</span>
             <h2>Top 10 Laptops of 2022</h2>
             <p>Our best picks for various needs and budgets.</p>
           </article>
           <article className="feed__article">
-            <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+            <img src={gamingGrowth} alt="" />
             <span>03</span>
             <h2>The Growth of Gaming</h2>
             <p>How the pandemic has sparked fresh opportunities.</p>
