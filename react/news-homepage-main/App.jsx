@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "./assets/images/logo.svg";
 import heroMobile from "./assets/images/image-web-3-mobile.jpg";
 import heroDesktop from "./assets/images/image-web-3-desktop.jpg";
 import retroPC from "./assets/images/image-retro-pcs.jpg";
@@ -21,11 +22,7 @@ function App() {
       <header className="header">
         <a href="#">
           <h1>
-            <img
-              src="./assets/images/logo.svg"
-              alt="Logo"
-              className="header__logo"
-            />
+            <img src={logo} alt="Logo" className="header__logo" />
           </h1>
         </a>
         <nav
@@ -135,13 +132,13 @@ function App() {
           </a>
         </section>
       </main>
-      {/* <footer className="attribution">
-        Challenge by
+      <footer className="attribution">
+        Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
         </a>
-        . Coded by <a href="#">Your Name Here</a>.
-      </footer> */}
+        . Coded by <a href="https://github.com/rickyxyz">@rickyxyz</a>.
+      </footer>
     </>
   );
 }

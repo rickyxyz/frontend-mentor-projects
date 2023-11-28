@@ -298,13 +298,11 @@ body {
   font-weight: 800;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  display: none;
+footer {
+  margin-top: auto;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+footer a {
+  color: hsl(5, 85%, 63%);
 }
 
 @media screen and (min-width: 60rem) {
@@ -339,9 +337,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 3rem 1rem 2rem 1rem;
+    padding: 3rem 1rem 1.5rem 1rem;
   }
   #root {
+    min-height: calc(100vh - 5rem);
     justify-content: center;
     align-items: center;
     max-width: 72rem;
