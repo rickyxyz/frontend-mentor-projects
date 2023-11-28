@@ -19,13 +19,15 @@ function App() {
     <>
       <div className={`backdrop ${!isMenuOpen ? "hidden" : ""}`} />
       <header className="header">
-        <h1>
-          <img
-            src="./assets/images/logo.svg"
-            alt="Logo"
-            className="header__logo"
-          />
-        </h1>
+        <a href="#">
+          <h1>
+            <img
+              src="./assets/images/logo.svg"
+              alt="Logo"
+              className="header__logo"
+            />
+          </h1>
+        </a>
         <nav
           className={`navigation-maximized ${
             !isMenuOpen ? "navigation-hidden" : ""
@@ -80,45 +82,57 @@ function App() {
         <aside className="aside">
           <h2>New</h2>
           <div className="aside__list">
-            <section>
-              <h3>Hydrogen VS Electric Cars</h3>
-              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-            </section>
-            <section>
-              <h3>The Downsides of AI Artistry</h3>
-              <p>
-                What are the possible adverse effects of on-demand AI image
-                generation?
-              </p>
-            </section>
-            <section>
-              <h3>Is VC Funding Drying Up?</h3>
-              <p>
-                Private funding by VC firms is down 50% YOY. We take a look at
-                what that means.
-              </p>
-            </section>
+            <a href="#new1">
+              <section>
+                <h3>Hydrogen VS Electric Cars</h3>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </section>
+            </a>
+            <a href="#new2">
+              <section>
+                <h3>The Downsides of AI Artistry</h3>
+                <p>
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </section>
+            </a>
+            <a href="new3">
+              <section>
+                <h3>Is VC Funding Drying Up?</h3>
+                <p>
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </section>
+            </a>
           </div>
         </aside>
         <section className="feed">
-          <article className="feed__article">
-            <img src={retroPC} alt="" />
-            <span>01</span>
-            <h2>Reviving Retro PCs</h2>
-            <p>What happens when old PCs are given modern upgrades?</p>
-          </article>
-          <article className="feed__article">
-            <img src={topLaptop} alt="" />
-            <span>02</span>
-            <h2>Top 10 Laptops of 2022</h2>
-            <p>Our best picks for various needs and budgets.</p>
-          </article>
-          <article className="feed__article">
-            <img src={gamingGrowth} alt="" />
-            <span>03</span>
-            <h2>The Growth of Gaming</h2>
-            <p>How the pandemic has sparked fresh opportunities.</p>
-          </article>
+          <a href="#feed1">
+            <article className="feed__article">
+              <img src={retroPC} alt="" />
+              <span>01</span>
+              <h2>Reviving Retro PCs</h2>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </article>
+          </a>
+          <a href="#feed2">
+            <article className="feed__article">
+              <img src={topLaptop} alt="" />
+              <span>02</span>
+              <h2>Top 10 Laptops of 2022</h2>
+              <p>Our best picks for various needs and budgets.</p>
+            </article>
+          </a>
+          <a href="#feed3">
+            <article className="feed__article">
+              <img src={gamingGrowth} alt="" />
+              <span>03</span>
+              <h2>The Growth of Gaming</h2>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </article>
+          </a>
         </section>
       </main>
       {/* <footer className="attribution">

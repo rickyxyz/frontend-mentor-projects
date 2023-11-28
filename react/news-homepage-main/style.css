@@ -159,6 +159,11 @@ body {
   align-items: center;
   gap: 2.5rem;
 }
+.header__navigation a:active,
+.header__navigation a:hover {
+  color: hsl(5, 85%, 63%);
+  transition: 0.2s ease-out;
+}
 
 .main {
   padding: 1rem;
@@ -203,6 +208,11 @@ body {
   font-size: 0.9rem;
   letter-spacing: 3.5px;
 }
+.hero a:hover,
+.hero a:active {
+  background-color: hsl(240, 100%, 5%);
+  transition: 0.2s ease-out;
+}
 
 .aside {
   grid-area: aside;
@@ -221,6 +231,11 @@ body {
   background-color: hsl(236, 13%, 42%);
   gap: 1px;
   justify-content: space-between;
+}
+.aside__list a:hover h3,
+.aside__list a:active h3 {
+  color: hsl(35, 77%, 62%);
+  transition: 0.2s ease-out;
 }
 .aside__list section {
   background-color: hsl(240, 100%, 5%);
@@ -247,6 +262,11 @@ body {
   .feed {
     grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
   }
+}
+.feed a:hover h2,
+.feed a:active h2 {
+  color: hsl(5, 85%, 63%);
+  transition: 0.2s ease-out;
 }
 .feed__article {
   height: max-content;

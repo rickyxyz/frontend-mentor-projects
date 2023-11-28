@@ -172,6 +172,12 @@ body {
     justify-content: flex-end;
     align-items: center;
     gap: 2.5rem;
+
+    a:active,
+    a:hover {
+      color: $soft-red;
+      transition: 0.2s ease-out;
+    }
   }
 }
 
@@ -224,6 +230,12 @@ body {
     font-size: 0.9rem;
     letter-spacing: 3.5px;
   }
+
+  a:hover,
+  a:active {
+    background-color: $very-dark-blue;
+    transition: 0.2s ease-out;
+  }
 }
 
 .aside {
@@ -244,6 +256,12 @@ body {
     background-color: $dark-grayish-blue;
     gap: 1px;
     justify-content: space-between;
+
+    a:hover h3,
+    a:active h3 {
+      color: $soft-orange;
+      transition: 0.2s ease-out;
+    }
 
     section {
       background-color: $very-dark-blue;
@@ -271,6 +289,12 @@ body {
 
   @media screen and (min-width: 21rem) {
     grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  }
+
+  a:hover h2,
+  a:active h2 {
+    color: $soft-red;
+    transition: 0.2s ease-out;
   }
 
   &__article {
