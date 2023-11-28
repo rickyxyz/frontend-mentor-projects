@@ -333,8 +333,10 @@ body {
 
 footer {
   margin-top: auto;
-  a {
-    color: $soft-red;
+  a,
+  a:visited {
+    color: $very-dark-blue;
+    text-decoration: underline;
   }
 }
 

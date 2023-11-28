@@ -301,8 +301,10 @@ body {
 footer {
   margin-top: auto;
 }
-footer a {
-  color: hsl(5, 85%, 63%);
+footer a,
+footer a:visited {
+  color: hsl(240, 100%, 5%);
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 60rem) {
