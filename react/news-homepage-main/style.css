@@ -78,10 +78,29 @@ body {
   font-weight: 400;
 }
 
+html,
+body {
+  height: auto;
+}
+
 #root {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.backdrop {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: hsl(236, 13%, 42%);
+  opacity: 0.4;
+}
+
+.hidden {
+  display: none !important;
+  visibility: none !important;
 }
 
 .header {
@@ -100,16 +119,45 @@ body {
   justify-content: center;
 }
 .header .navigation-maximized {
-  display: none;
+  transition: width 0.3s ease-out, opacity 0.3s ease-in;
+  width: 15rem;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: hsl(36, 100%, 99%);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1.5rem 1.5rem 0 0;
+  gap: 3.5rem;
+}
+.header .navigation-maximized .header__navigation {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+  gap: 1.5rem;
+}
+.header .navigation-hidden {
+  overflow: hidden;
+  width: 0;
+  opacity: 0;
 }
 .header .navigation-minimized {
   display: inline-block;
   margin-left: auto;
 }
 .header__navigation {
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  gap: 2.5rem;
 }
 
 .main {
@@ -271,7 +319,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 3rem 0 0 0;
+    padding: 3rem 1rem 2rem 1rem;
   }
   #root {
     justify-content: center;
@@ -279,8 +327,38 @@ body {
     max-width: 72rem;
     gap: 2rem;
   }
+  .header {
+    align-items: center;
+  }
   .header__logo {
     height: 2.5rem;
+  }
+  .header .navigation-maximized {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    position: relative;
+    background-color: hsl(36, 100%, 99%);
+  }
+  .header .navigation-maximized .button-close {
+    display: none;
+    visibility: collapse;
+  }
+  .header .navigation-maximized .header__navigation {
+    font-size: 1rem;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2.5rem;
+  }
+  .header .navigation-hidden {
+    width: 100%;
+    overflow: auto;
+    opacity: 1;
+  }
+  .header .navigation-minimized {
+    display: none;
   }
   .main {
     grid-template-areas: "hero aside" "feed feed";

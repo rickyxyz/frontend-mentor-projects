@@ -1,13 +1,23 @@
-import "./style.css";
+import { useState, useEffect } from "react";
 import heroMobile from "./assets/images/image-web-3-mobile.jpg";
 import heroDesktop from "./assets/images/image-web-3-desktop.jpg";
 import retroPC from "./assets/images/image-retro-pcs.jpg";
 import topLaptop from "./assets/images/image-top-laptops.jpg";
 import gamingGrowth from "./assets/images/image-gaming-growth.jpg";
+import menuIcon from "./assets/images/icon-menu.svg";
+import closeIcon from "./assets/images/icon-menu-close.svg";
+import "./style.css";
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? "hidden" : "auto";
+  }, [isMenuOpen]);
+
   return (
     <>
+      <div className={`backdrop ${!isMenuOpen ? "hidden" : ""}`} />
       <header className="header">
         <h1>
           <img
@@ -16,27 +26,37 @@ function App() {
             className="header__logo"
           />
         </h1>
-        <nav className="navigation-maximized">
+        <nav
+          className={`navigation-maximized ${
+            !isMenuOpen ? "navigation-hidden" : ""
+          }`}
+        >
+          <button className="button-close" onClick={() => setIsMenuOpen(false)}>
+            <img src={closeIcon} alt="close navigation" />
+          </button>
           <ul className="header__navigation">
             <li>
-              <a href="">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="">New</a>
+              <a href="#new">New</a>
             </li>
             <li>
-              <a href="">Popular</a>
+              <a href="#popular">Popular</a>
             </li>
             <li>
-              <a href="">Trending</a>
+              <a href="#trending">Trending</a>
             </li>
             <li>
-              <a href="">Categories</a>
+              <a href="#categories">Categories</a>
             </li>
           </ul>
         </nav>
-        <button className="navigation-minimized">
-          <img src="./assets/images/icon-menu.svg" alt="" />
+        <button
+          className="navigation-minimized"
+          onClick={() => setIsMenuOpen(true)}
+        >
+          <img src={menuIcon} alt="open navigation" />
         </button>
       </header>
       <main className="main">
