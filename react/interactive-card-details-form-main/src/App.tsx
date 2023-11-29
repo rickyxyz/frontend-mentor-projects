@@ -79,7 +79,7 @@ function InputGroup({
         </label>
       )}
       <input
-        type="string"
+        type="text"
         name={name}
         id={`#${name}`}
         {...props}
