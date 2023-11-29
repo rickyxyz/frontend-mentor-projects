@@ -110,22 +110,27 @@ function Notification({ notification }) {
       />
       <main>
         <p>
-          <span className="notification__name">{name}</span> {content}{" "}
+          <a className="notification__name" href={`#${name}`}>
+            {name}
+          </a>{" "}
+          {content}{" "}
           {extra && (
-            <span className={`notification__extra ${notificationExtraClass}`}>
+            <a className={`notification__extra ${notificationExtraClass}`}>
               {extra}
-            </span>
+            </a>
           )}
           {isUnread && <span className="notification__ping" />}
         </p>
         <span className="notification__time">{time}</span>
         {type === "message" && (
-          <aside className="notification__message">{parent}</aside>
+          <a className="notification__message">{parent}</a>
         )}
       </main>
       {type === "comment" && (
         <aside className="notification__picture">
-          <img src={parent} alt="your picture" />
+          <a href="#image">
+            <img src={parent} alt="your picture" />
+          </a>
         </aside>
       )}
     </article>

@@ -15,12 +15,27 @@ body {
   letter-spacing: -0.2px;
   word-spacing: 1px;
 }
+body a,
+body a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+body a:hover {
+  color: hsl(219, 85%, 26%);
+}
 
 button {
   border: none;
   background-color: none;
   background: none;
-  color: hsl(219, 12%, 42%);
+  color: hsl(219, 14%, 63%);
+  transition: 0.1s ease-in;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  color: hsl(219, 85%, 26%);
 }
 
 #root {
@@ -87,6 +102,7 @@ button {
 .notification main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.2rem;
 }
 .notification__name {
@@ -110,6 +126,11 @@ button {
   margin-top: 0.5rem;
   border: 1px solid hsl(205, 33%, 90%);
   border-radius: 5px;
+}
+.notification__message:hover {
+  background-color: hsl(211, 68%, 94%);
+  border: 1px solid hsl(211, 68%, 94%);
+  color: hsl(219, 12%, 42%);
 }
 .notification__picture img {
   width: 2.5rem;
@@ -151,6 +172,14 @@ button {
   }
   .notification__message {
     line-height: 1.5rem;
+    max-width: 97.5%;
+  }
+  .notification__picture {
+    margin-left: auto;
+    transition: transform 0.2s ease-in;
+  }
+  .notification__picture:hover {
+    transform: scale(1.05);
   }
 }
 

@@ -24,13 +24,30 @@ body {
   color: $very-dark-blue;
   letter-spacing: -0.2px;
   word-spacing: 1px;
+
+  a,
+  a:visited {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: $blue;
+  }
 }
 
 button {
   border: none;
   background-color: none;
   background: none;
-  color: $dark-grayish-blue;
+  color: $grayish-blue;
+  transition: 0.1s ease-in;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  color: $blue;
 }
 
 #root {
@@ -103,6 +120,7 @@ button {
   main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 0.2rem;
   }
 
@@ -131,6 +149,12 @@ button {
     margin-top: 0.5rem;
     border: 1px solid $light-grayish-blue-2;
     border-radius: 5px;
+  }
+
+  &__message:hover {
+    background-color: $light-grayish-blue-1;
+    border: 1px solid $light-grayish-blue-1;
+    color: $dark-grayish-blue;
   }
 
   &__picture {
@@ -181,6 +205,16 @@ button {
 
     &__message {
       line-height: 1.5rem;
+      max-width: 97.5%;
+    }
+
+    &__picture {
+      margin-left: auto;
+      transition: transform 0.2s ease-in;
+
+      &:hover {
+        transform: scale(1.05);
+      }
     }
   }
 }
