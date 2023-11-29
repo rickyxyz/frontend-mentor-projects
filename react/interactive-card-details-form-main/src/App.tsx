@@ -155,18 +155,18 @@ function App() {
     <main className="main">
       <div className="backdrop">
         <div className="card card-background">
-          <span className="card__ccv">{formData.cvc || "123"}</span>
+          <span className="card__ccv">{formData.cvc || "000"}</span>
         </div>
         <div className="card card-foreground">
           <img src={cardLogo} alt="card logo" className="card__logo" />
           <span className="card__number">
-            {formData.number || "1234 5678 9123 0000"}
+            {formData.number || "0000 0000 0000 0000"}
           </span>
           <span className="card__name">
             {formData.name || "Jane Appleseed"}
           </span>
           <span className="card__expiry">
-            {formData.month || "MM"}/{formData.year || "YY"}
+            {formData.month || "00"}/{formData.year || "00"}
           </span>
         </div>
       </div>
