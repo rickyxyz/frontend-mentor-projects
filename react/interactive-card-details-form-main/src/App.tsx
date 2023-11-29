@@ -176,7 +176,20 @@ function App() {
             <img src={checkMark} alt="check mark" />
             <h1>THANK YOU!</h1>
             <p>We've added your card details</p>
-            <button onClick={() => setHasSubmitted(false)}>Continue</button>
+            <button
+              onClick={() => {
+                setHasSubmitted(false);
+                setFormData({
+                  name: "",
+                  number: "",
+                  month: "",
+                  year: "",
+                  cvc: "",
+                });
+              }}
+            >
+              Continue
+            </button>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="form" noValidate>
@@ -199,32 +212,33 @@ function App() {
               errorMessage={formError.number}
               isValid={!Boolean(formError.number)}
             />
-            <div className="input_group-2_columns">
-              <div className="input_group">
-                <label htmlFor="month" className="input_group__label">
-                  exp. date (mm/yy)
-                </label>
-                <div className="input_group-2_columns">
-                  <InputGroup
-                    name="month"
-                    pattern="\d*"
-                    placeholder="MM"
-                    value={formData.month}
-                    onChange={handleChange}
-                    errorMessage={formError.month}
-                    isValid={!Boolean(formError.month)}
-                  />
-                  <InputGroup
-                    name="year"
-                    pattern="\d*"
-                    placeholder="YY"
-                    value={formData.year}
-                    onChange={handleChange}
-                    errorMessage={formError.year}
-                    isValid={!Boolean(formError.year)}
-                  />
-                </div>
-              </div>
+            <div className="input_group-split">
+              <label
+                htmlFor="month"
+                className="input_group__label input_group-split_label"
+              >
+                exp. date (mm/yy)
+              </label>
+              <InputGroup
+                name="month"
+                pattern="\d*"
+                placeholder="MM"
+                value={formData.month}
+                onChange={handleChange}
+                errorMessage={formError.month}
+                isValid={!Boolean(formError.month)}
+                className="input_group-split_month"
+              />
+              <InputGroup
+                name="year"
+                pattern="\d*"
+                placeholder="YY"
+                value={formData.year}
+                onChange={handleChange}
+                errorMessage={formError.year}
+                isValid={!Boolean(formError.year)}
+                className="input_group-split_year"
+              />
               <InputGroup
                 name="cvc"
                 pattern="\d*"
@@ -234,6 +248,7 @@ function App() {
                 onChange={handleChange}
                 errorMessage={formError.cvc}
                 isValid={!Boolean(formError.cvc)}
+                className="input_group-split_cvc"
               />
             </div>
             <button type="submit" className="form__button-submit">

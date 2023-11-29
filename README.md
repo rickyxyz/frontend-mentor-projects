@@ -15,6 +15,7 @@ To see browse the gallery of projects, please click the link below.
     - [Age Calculator App Main](#age-calculator-app-main)
     - [News Homepage Main](#news-homepage-main)
     - [Notifications Page Main](#notifications-page-main)
+    - [Interactive Card Details Form Main](#interactive-card-details-form-main)
   - [Newbie](#newbie)
     - [NFT Preview Card Component Main](#nft-preview-card-component-main)
     - [QR Code Component Main](#qr-code-component-main)
@@ -55,6 +56,11 @@ To see browse the gallery of projects, please click the link below.
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/notifications-page-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/notifications-page-main/index.html)
+
+### Interactive Card Details Form Main
+
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/interactive-card-details-form-main)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/interactive-card-details-form-main/index.html)
 
 ## Newbie
 

@@ -203,21 +203,30 @@ button:active {
     }
   }
 
-  .input_group-2_columns {
+  .input_group-split {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1rem 1fr;
+    grid-template-areas:
+      "label label cvc"
+      "month year cvc";
     grid-column-gap: 1rem;
-    align-items: end;
+    grid-row-gap: 0.6rem;
+    align-items: start;
+
+    &_label {
+      grid-area: label;
+    }
+    &_month {
+      grid-area: month;
+    }
+    &_year {
+      grid-area: year;
+    }
+    &_cvc {
+      grid-area: cvc;
+    }
   }
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 @media screen and (min-width: 30rem) {

@@ -169,11 +169,26 @@ button:active {
 .main .input_group__error::first-letter {
   text-transform: capitalize;
 }
-.main .input_group-2_columns {
+.main .input_group-split {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1rem 1fr;
+  grid-template-areas: "label label cvc" "month year cvc";
   grid-column-gap: 1rem;
-  align-items: end;
+  grid-row-gap: 0.6rem;
+  align-items: start;
+}
+.main .input_group-split_label {
+  grid-area: label;
+}
+.main .input_group-split_month {
+  grid-area: month;
+}
+.main .input_group-split_year {
+  grid-area: year;
+}
+.main .input_group-split_cvc {
+  grid-area: cvc;
 }
 
 .attribution {
