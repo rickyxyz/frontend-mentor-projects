@@ -127,15 +127,15 @@ function Notification({ notification }) {
         <span className="notification__time">{time}</span>
         {type === "message" && (
           <a>
-            <aside className="notification__message">{parent}</aside>
+            <div className="notification__message">{parent}</div>
           </a>
         )}
       </section>
       {type === "comment" && (
         <a href="#image" style={{ marginLeft: "auto" }}>
-          <aside className="notification__picture">
+          <div className="notification__picture">
             <img src={parent} alt="your picture" />
-          </aside>
+          </div>
         </a>
       )}
     </article>
