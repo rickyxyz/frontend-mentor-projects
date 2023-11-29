@@ -175,19 +175,28 @@ function App() {
 
   return (
     <>
-      <header className="header">
-        <h1>Notifications</h1>
-        <span>{unreadCount}</span>
-        <button onClick={handleReadAll}>Mark all as read</button>
-      </header>
-      <main className="notification_list">
-        {notifications.map((notification) => (
-          <Notification
-            key={`n-${notification.name}-${notification.time}}`}
-            notification={notification}
-          />
-        ))}
-      </main>
+      <div className="card_wrapper">
+        <header className="header">
+          <h1>Notifications</h1>
+          <span>{unreadCount}</span>
+          <button onClick={handleReadAll}>Mark all as read</button>
+        </header>
+        <main className="notification_list">
+          {notifications.map((notification) => (
+            <Notification
+              key={`n-${notification.name}-${notification.time}}`}
+              notification={notification}
+            />
+          ))}
+        </main>
+      </div>
+      <footer class="attribution">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by <a href="https://github.com/rickyxyz">@rickyxyz</a>.
+      </footer>
     </>
   );
 }
