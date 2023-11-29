@@ -110,7 +110,10 @@ function Notification({ notification }) {
       />
       <section>
         <p>
-          <a className="notification__name" href={`#${name}`}>
+          <a
+            className="notification__name"
+            href={`#${encodeURIComponent(name.trim())}`}
+          >
             {name}
           </a>{" "}
           {content}{" "}
