@@ -108,7 +108,7 @@ function Notification({ notification }) {
         alt="profile picture"
         className="notification__profile_picture"
       />
-      <main>
+      <section>
         <p>
           <a className="notification__name" href={`#${name}`}>
             {name}
@@ -125,7 +125,7 @@ function Notification({ notification }) {
         {type === "message" && (
           <a className="notification__message">{parent}</a>
         )}
-      </main>
+      </section>
       {type === "comment" && (
         <aside className="notification__picture">
           <a href="#image">
