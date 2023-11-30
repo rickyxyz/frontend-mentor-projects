@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+.chart {
+  display: flex;
+  gap: 1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
