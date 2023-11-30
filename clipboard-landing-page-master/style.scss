@@ -1,0 +1,456 @@
+$strong-cyan: hsl(171, 66%, 44%);
+$strong-cyan-shadow: hsla(171, 66%, 44%, 59%);
+$light-blue: hsl(233, 100%, 69%);
+$light-blue-shadow: hsla(233, 100%, 69%, 59%);
+$dark-grayish-blue: hsl(210, 10%, 33%);
+$grayish-blue: hsl(201, 11%, 66%);
+$gray: hsl(220, 18%, 97%);
+$white: hsl(0, 0%, 100%);
+$twitter-blue: hsl(203, 89%, 53%);
+$facebook-blue: hsl(208, 74%, 53%);
+$instagram-orange: hsl(30, 87%, 55%);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+ol,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: $dark-grayish-blue;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: $grayish-blue;
+  line-height: 1.6rem;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  width: 100%;
+  padding: 0 1rem;
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  border-radius: 1.75rem;
+  width: 100%;
+  max-width: 19.5rem;
+  transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+
+  &-green {
+    background-color: $strong-cyan;
+  }
+
+  &-green:hover,
+  &-green:active {
+    box-shadow: 4px 3px 11px 0px $strong-cyan-shadow;
+  }
+
+  &-blue {
+    background-color: $light-blue;
+  }
+
+  &-blue:hover,
+  &-blue:active {
+    box-shadow: 4px 3px 11px 0px $light-blue-shadow;
+  }
+}
+
+.button:hover,
+.button:active {
+  filter: contrast(120%);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-header {
+    @extend .flex;
+    gap: 1rem;
+    padding: 0 1rem;
+    max-width: 30rem;
+  }
+  &-buttons {
+    @extend .flex;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  &-image_list {
+    @extend .flex;
+    gap: 2.5rem;
+  }
+  &-list {
+    @extend .flex;
+    gap: 2.8rem;
+  }
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+
+  &-computer {
+    width: calc(100% - 2rem);
+  }
+
+  &-list_icon {
+    margin: 2.5rem 0;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+.section {
+  &-hero {
+    background: url("./images/bg-header-mobile.png") top;
+    background-size: cover;
+    padding-top: 7.5rem;
+
+    img {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &-computer {
+    padding-top: 5.5rem;
+  }
+
+  &-device {
+    padding-top: 7rem;
+  }
+
+  &-features {
+    padding-top: 0rem;
+
+    .flex-list {
+      gap: 1rem;
+    }
+  }
+
+  &-companies {
+    padding-top: 4rem;
+
+    img {
+      max-height: 2.5rem;
+      width: auto;
+    }
+
+    .flex-list {
+      gap: 4rem;
+    }
+  }
+
+  &-download {
+    padding-top: 4.5rem;
+    margin-bottom: 10rem;
+  }
+}
+
+footer {
+  background-color: $gray;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+
+  .footer {
+    padding: 2.5rem 0;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: $strong-cyan;
+    text-decoration: underline;
+  }
+}
+
+.footer {
+  background-color: $gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem 1rem;
+  gap: 3rem;
+
+  &__company_logo {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  &__links {
+    @extend .flex;
+    gap: 2rem;
+    transition: color 0.2s ease-out;
+
+    a:hover,
+    a:active {
+      color: $strong-cyan;
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 2.5rem;
+  }
+
+  path {
+    transition: fill 0.1s ease-in;
+  }
+}
+
+.link-facebook:hover path,
+.link-facebook:active path {
+  fill: $facebook-blue;
+}
+.link-twitter:hover path,
+.link-twitter:active path {
+  fill: $twitter-blue;
+}
+.link-instagram:hover path,
+.link-instagram:active path {
+  fill: $instagram-orange;
+}
+
+@media screen and (min-width: 45rem) {
+  .section {
+    &-hero {
+      background-size: 100% 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 67rem) {
+  h1,
+  h2,
+  h3 {
+    font-weight: 700;
+    color: $dark-grayish-blue;
+  }
+
+  h1 {
+    letter-spacing: -1.7px;
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    letter-spacing: 1px;
+    color: $grayish-blue;
+    line-height: 1.6rem;
+  }
+
+  .button {
+    max-width: 14.5rem;
+  }
+
+  .flex {
+    &-header {
+      gap: 1.4rem;
+      padding: 0 1rem;
+      max-width: 52vw;
+    }
+    &-buttons {
+      flex-direction: row;
+      justify-content: center;
+    }
+    &-list {
+      flex-direction: row;
+    }
+  }
+
+  .section {
+    &-hero {
+      background: url("./images/bg-header-desktop.png") top;
+      background-size: cover;
+
+      img {
+        margin-bottom: 1rem;
+      }
+    }
+
+    &-computer {
+      padding: 6.5rem 0 0 0;
+      gap: 4.5rem;
+
+      img {
+        max-height: 36rem;
+        width: auto;
+      }
+
+      .flex-image_list {
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+        transform: translateX(-10%);
+        gap: 6rem;
+      }
+
+      .flex-list {
+        margin-top: 3%;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        .flex-header {
+          width: 100%;
+          align-items: flex-start;
+          max-width: 25rem;
+          text-align: left;
+        }
+      }
+    }
+
+    &-device {
+      padding-top: 5rem;
+
+      img {
+        max-width: 57rem;
+      }
+    }
+
+    &-features {
+      gap: 2rem;
+
+      .flex-list {
+        max-width: 70rem;
+        align-items: flex-start;
+
+        img {
+          height: 2.5rem;
+        }
+
+        li {
+          max-width: 33%;
+        }
+      }
+    }
+
+    &-companies {
+      padding-top: 7rem;
+      .flex-list {
+        gap: 6rem;
+      }
+
+      img {
+        max-height: 10rem;
+        width: auto;
+      }
+    }
+
+    &-download {
+      padding-top: 7rem;
+    }
+  }
+
+  body {
+    font-size: 18px;
+    overflow-x: hidden;
+  }
+
+  .main {
+    gap: 3rem;
+  }
+
+  footer {
+    .footer {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 8rem;
+      padding: 3.5rem 10rem;
+
+      nav {
+        flex-grow: 1;
+      }
+
+      &__links {
+        display: grid;
+        grid-template-columns: repeat(3, 10rem);
+        grid-template-rows: repeat(2, auto);
+        grid-auto-flow: column;
+        justify-items: start;
+        grid-row-gap: 1.5rem;
+        grid-column-gap: 1.5rem;
+      }
+
+      &__social {
+        margin: auto;
+        align-self: center;
+        gap: 1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 95rem) {
+  .section {
+    &-computer {
+      .flex-image_list {
+        transform: translateX(0%);
+      }
+    }
+  }
+}
