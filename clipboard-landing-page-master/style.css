@@ -1,0 +1,374 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+ol,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: hsl(210, 10%, 33%);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6rem;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  width: 100%;
+  padding: 0 1rem;
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  border-radius: 1.75rem;
+  width: 100%;
+  max-width: 19.5rem;
+  transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+.button-green {
+  background-color: hsl(171, 66%, 44%);
+}
+.button-green:hover, .button-green:active {
+  box-shadow: 4px 3px 11px 0px hsla(171, 66%, 44%, 0.59);
+}
+.button-blue {
+  background-color: hsl(233, 100%, 69%);
+}
+.button-blue:hover, .button-blue:active {
+  box-shadow: 4px 3px 11px 0px hsla(233, 100%, 69%, 0.59);
+}
+
+.button:hover,
+.button:active {
+  filter: contrast(120%);
+}
+
+.flex, .footer__links, .flex-list, .flex-image_list, .flex-buttons, .flex-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-header {
+  gap: 1rem;
+  padding: 0 1rem;
+  max-width: 30rem;
+}
+.flex-buttons {
+  gap: 1.5rem;
+  width: 100%;
+}
+.flex-image_list {
+  gap: 2.5rem;
+}
+.flex-list {
+  gap: 2.8rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+.image-computer {
+  width: calc(100% - 2rem);
+}
+.image-list_icon {
+  margin: 2.5rem 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+.section-hero {
+  background: url("./images/bg-header-mobile.png") top;
+  background-size: cover;
+  padding-top: 7.5rem;
+}
+.section-hero img {
+  margin-bottom: 1rem;
+}
+.section-computer {
+  padding-top: 5.5rem;
+}
+.section-device {
+  padding-top: 7rem;
+}
+.section-features {
+  padding-top: 0rem;
+}
+.section-features .flex-list {
+  gap: 1rem;
+}
+.section-companies {
+  padding-top: 4rem;
+}
+.section-companies img {
+  max-height: 2.5rem;
+  width: auto;
+}
+.section-companies .flex-list {
+  gap: 4rem;
+}
+.section-download {
+  padding-top: 4.5rem;
+  margin-bottom: 10rem;
+}
+
+footer {
+  background-color: hsl(220, 18%, 97%);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+footer .footer {
+  padding: 2.5rem 0;
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: hsl(171, 66%, 44%);
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: hsl(220, 18%, 97%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem 1rem;
+  gap: 3rem;
+}
+.footer__company_logo {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.footer__links {
+  gap: 2rem;
+  transition: color 0.2s ease-out;
+}
+.footer__links a:hover,
+.footer__links a:active {
+  color: hsl(171, 66%, 44%);
+}
+.footer__social {
+  display: flex;
+  gap: 2.5rem;
+}
+.footer path {
+  transition: fill 0.1s ease-in;
+}
+
+.link-facebook:hover path,
+.link-facebook:active path {
+  fill: hsl(208, 74%, 53%);
+}
+
+.link-twitter:hover path,
+.link-twitter:active path {
+  fill: hsl(203, 89%, 53%);
+}
+
+.link-instagram:hover path,
+.link-instagram:active path {
+  fill: hsl(30, 87%, 55%);
+}
+
+@media screen and (min-width: 45rem) {
+  .section-hero {
+    background-size: 100% 100%;
+  }
+}
+@media screen and (min-width: 67rem) {
+  h1,
+  h2,
+  h3 {
+    font-weight: 700;
+    color: hsl(210, 10%, 33%);
+  }
+  h1 {
+    letter-spacing: -1.7px;
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    letter-spacing: 1px;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.6rem;
+  }
+  .button {
+    max-width: 14.5rem;
+  }
+  .flex-header {
+    gap: 1.4rem;
+    padding: 0 1rem;
+    max-width: 52vw;
+  }
+  .flex-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .flex-list {
+    flex-direction: row;
+  }
+  .section-hero {
+    background: url("./images/bg-header-desktop.png") top;
+    background-size: cover;
+  }
+  .section-hero img {
+    margin-bottom: 1rem;
+  }
+  .section-computer {
+    padding: 6.5rem 0 0 0;
+    gap: 4.5rem;
+  }
+  .section-computer img {
+    max-height: 36rem;
+    width: auto;
+  }
+  .section-computer .flex-image_list {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    transform: translateX(-10%);
+    gap: 6rem;
+  }
+  .section-computer .flex-list {
+    margin-top: 3%;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .section-computer .flex-list .flex-header {
+    width: 100%;
+    align-items: flex-start;
+    max-width: 25rem;
+    text-align: left;
+  }
+  .section-device {
+    padding-top: 5rem;
+  }
+  .section-device img {
+    max-width: 57rem;
+  }
+  .section-features {
+    gap: 2rem;
+  }
+  .section-features .flex-list {
+    max-width: 70rem;
+    align-items: flex-start;
+  }
+  .section-features .flex-list img {
+    height: 2.5rem;
+  }
+  .section-features .flex-list li {
+    max-width: 33%;
+  }
+  .section-companies {
+    padding-top: 7rem;
+  }
+  .section-companies .flex-list {
+    gap: 6rem;
+  }
+  .section-companies img {
+    max-height: 10rem;
+    width: auto;
+  }
+  .section-download {
+    padding-top: 7rem;
+  }
+  body {
+    font-size: 18px;
+    overflow-x: hidden;
+  }
+  .main {
+    gap: 3rem;
+  }
+  footer .footer {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8rem;
+    padding: 3.5rem 10rem;
+  }
+  footer .footer nav {
+    flex-grow: 1;
+  }
+  footer .footer__links {
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    grid-template-rows: repeat(2, auto);
+    grid-auto-flow: column;
+    justify-items: start;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem;
+  }
+  footer .footer__social {
+    margin: auto;
+    align-self: center;
+    gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 95rem) {
+  .section-computer .flex-image_list {
+    transform: translateX(0%);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

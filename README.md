@@ -16,6 +16,7 @@ To see browse the gallery of projects, please click the link below.
     - [News Homepage Main](#news-homepage-main)
     - [Notifications Page Main](#notifications-page-main)
     - [Interactive Card Details Form Main](#interactive-card-details-form-main)
+    - [Clipboard Landing Page Master](#clipboard-landing-page-master)
   - [Newbie](#newbie)
     - [NFT Preview Card Component Main](#nft-preview-card-component-main)
     - [QR Code Component Main](#qr-code-component-main)
@@ -61,6 +62,11 @@ To see browse the gallery of projects, please click the link below.
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/interactive-card-details-form-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/interactive-card-details-form-main/index.html)
+
+### Clipboard Landing Page Master
+
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/clipboard-landing-page-master)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/clipboard-landing-page-master/index.html)
 
 ## Newbie
 
