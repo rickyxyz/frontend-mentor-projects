@@ -1,3 +1,14 @@
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
+
+const styles = {
+  main: css({
+    margin: 10,
+    padding: 10,
+    backgroundColor: "#eee",
+  }),
+};
+
 const DATA = {
   balance: 921.48,
   monthly: 478.33,
