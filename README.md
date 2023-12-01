@@ -17,7 +17,7 @@ To see browse the gallery of projects, please click the link below.
     - [Notifications Page Main](#notifications-page-main)
     - [Interactive Card Details Form Main](#interactive-card-details-form-main)
     - [Clipboard Landing Page Master](#clipboard-landing-page-master)
-    - [Expense Chart Component Main](#expenses-chart-component-main)
+    - [Expenses Chart Component Main](#expenses-chart-component-main)
   - [Newbie](#newbie)
     - [NFT Preview Card Component Main](#nft-preview-card-component-main)
     - [QR Code Component Main](#qr-code-component-main)
@@ -71,7 +71,7 @@ To see browse the gallery of projects, please click the link below.
 
 ### Expense Chart Component Main
 
-- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/expenses-chart-component-main)
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/expenses-chart-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/expenses-chart-component-main/index.html)
 
 ## Newbie
