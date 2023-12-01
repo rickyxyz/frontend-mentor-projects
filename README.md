@@ -69,7 +69,7 @@ To see browse the gallery of projects, please click the link below.
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/clipboard-landing-page-master)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/clipboard-landing-page-master/index.html)
 
-### Expense Chart Component Main
+### Expenses Chart Component Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/expenses-chart-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/expenses-chart-component-main/index.html)
