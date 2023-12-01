@@ -1,27 +1,21 @@
 {
-  "name": "expenses-chart-component-main",
+  "name": "huddle-landing-page-with-curved-sections-master",
   "version": "1.0.0",
-  "description": "![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)",
+  "description": "huddle-landing-page-with-curved-sections-master",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "sass:watch": "sass --watch style.scss style.css",
-    "dev": "vite",
-    "build": "vite build --emptyOutDir",
-    "preview": "vite preview"
+    "sass:watch": "sass --watch style.scss style.css"
   },
-  "keywords": [],
+  "keywords": [
+    "html",
+    "css",
+    "sass"
+  ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/react": "^18.2.38",
-    "@types/react-dom": "^18.2.17",
-    "@vitejs/plugin-react": "^4.2.0",
-    "sass": "^1.69.5",
-    "vite": "^5.0.2"
+    "sass": "^1.69.5"
   }
 }
