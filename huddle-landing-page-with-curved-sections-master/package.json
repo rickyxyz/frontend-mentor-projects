@@ -1,0 +1,21 @@
+{
+  "name": "huddle-landing-page-with-curved-sections-master",
+  "version": "1.0.0",
+  "description": "huddle-landing-page-with-curved-sections-master",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sass:watch": "sass --watch style.scss style.css"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
