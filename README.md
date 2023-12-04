@@ -77,7 +77,7 @@ To see browse the gallery of projects, please click the link below.
 
 ### Huddle Landing Page With Curved Sections Master
 
-- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/huddle-landing-page-with-curved-sections-master)
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/huddle-landing-page-with-curved-sections-master)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/huddle-landing-page-with-curved-sections-master/index.html)
 
 ## Newbie

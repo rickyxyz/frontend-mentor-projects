@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/huddle-landing-page-with-curved-sections-master)
+- Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/huddle-landing-page-with-curved-sections-master)
 - Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/huddle-landing-page-with-curved-sections-master/index.html)
 
 ## My process
