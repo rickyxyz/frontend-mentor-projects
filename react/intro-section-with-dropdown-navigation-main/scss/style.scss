@@ -21,9 +21,16 @@ a:visited {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+a,
+button,
+p,
 body {
   font-family: "Epilogue", sans-serif;
   font-size: 18px;
+  color: $medium-gray;
 }
 
 .attribution {
