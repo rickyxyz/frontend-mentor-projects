@@ -18,6 +18,7 @@ To see browse the gallery of projects, please click the link below.
     - [Interactive Card Details Form Main](#interactive-card-details-form-main)
     - [Clipboard Landing Page Master](#clipboard-landing-page-master)
     - [Expenses Chart Component Main](#expenses-chart-component-main)
+    - [Huddle Landing Page With Curved Sections Master](#huddle-landing-page-with-curved-sections-master)
   - [Newbie](#newbie)
     - [NFT Preview Card Component Main](#nft-preview-card-component-main)
     - [QR Code Component Main](#qr-code-component-main)
@@ -73,6 +74,11 @@ To see browse the gallery of projects, please click the link below.
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/expenses-chart-component-main)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/expenses-chart-component-main/index.html)
+
+### Huddle Landing Page With Curved Sections Master
+
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/huddle-landing-page-with-curved-sections-master)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/huddle-landing-page-with-curved-sections-master/index.html)
 
 ## Newbie
 
