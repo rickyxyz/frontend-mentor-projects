@@ -1,0 +1,43 @@
+@import "variables";
+
+.header {
+  padding: 1.5rem 1rem;
+  justify-content: space-between;
+
+  &__logo {
+  }
+  &__navigation {
+  }
+  &__links {
+  }
+  &__auth {
+  }
+  &__toogle_button {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(0, 0%, 0%, 0.414);
+}
+
+.sidebar {
+  position: absolute;
+  display: flex;
+  background-color: $almost-white;
+  top: 0;
+  right: 0;
+  z-index: 55;
+  height: 100%;
+  width: 15.5rem;
+}

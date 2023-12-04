@@ -1,8 +1,88 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header {
+  padding: 1.5rem 1rem;
+  justify-content: space-between;
+}
+.header__toogle_button {
+  background-color: transparent;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(0, 0%, 0%, 0.414);
+}
+
+.sidebar {
+  position: absolute;
+  display: flex;
+  background-color: hsl(0, 0%, 98%);
+  top: 0;
+  right: 0;
+  z-index: 55;
+  height: 100%;
+  width: 15.5rem;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 40rem) {
+  .mobile-hidden {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 40rem) {
+  .desktop-hidden {
+    display: none !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   color: hsl(228, 45%, 44%);
 }

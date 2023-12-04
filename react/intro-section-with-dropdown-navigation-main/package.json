@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "sass:watch": "sass --watch style.scss style.css",
+    "sass:watch": "sass --watch scss:.",
     "dev": "vite",
     "build": "vite build --emptyOutDir",
     "preview": "vite preview"

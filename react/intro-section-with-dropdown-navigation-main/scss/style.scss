@@ -1,0 +1,35 @@
+@import "main";
+@import "app";
+@import "header";
+@import "utils";
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
