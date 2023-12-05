@@ -1,6 +1,15 @@
+@import "variables";
+
 #root {
   display: flex;
   flex-direction: column;
   position: relative;
+  min-width: 100vw;
   min-height: 100vh;
+}
+
+@media screen and (min-width: $breakpoint) {
+  #root {
+    gap: 2rem;
+  }
 }

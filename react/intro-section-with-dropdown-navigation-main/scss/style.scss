@@ -33,6 +33,17 @@ body {
   color: $medium-gray;
 }
 
+h1 {
+  color: $almost-black;
+  font-size: 2.3rem;
+  letter-spacing: -0.5px;
+  word-spacing: -1px;
+}
+
+p {
+  line-height: 1.6rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -42,12 +53,36 @@ body {
 }
 
 .button {
+  padding: 0.75rem;
+  border-radius: 15px;
+  width: 100%;
+
   &-outline {
+    @extend .button;
     border: 1px solid $medium-gray;
-    padding: 0.75rem;
-    border-radius: 15px;
-    width: 100%;
     text-align: center;
+  }
+
+  &-filled {
+    @extend .button;
+    background-color: $almost-black;
+    border: none;
+    color: $white;
+    font-weight: 700;
+    transition: 0.1s ease-in;
+
+    &:hover,
+    &:active {
+      border: 1px solid $medium-gray;
+      background-color: $white;
+      color: $almost-black;
+    }
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  h1 {
+    font-size: 2rem;
   }
 }
 
@@ -61,6 +96,13 @@ body {
   body {
     font-family: "Epilogue", sans-serif;
     font-size: 18px;
-    color: $medium-gray;
+  }
+
+  h1 {
+    font-size: 5.1rem;
+  }
+
+  p {
+    line-height: 1.7rem;
   }
 }
