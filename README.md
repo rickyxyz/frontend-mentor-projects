@@ -19,6 +19,7 @@ To see browse the gallery of projects, please click the link below.
     - [Clipboard Landing Page Master](#clipboard-landing-page-master)
     - [Expenses Chart Component Main](#expenses-chart-component-main)
     - [Huddle Landing Page With Curved Sections Master](#huddle-landing-page-with-curved-sections-master)
+    - [Intro Section With Dropdown Navigation Main](#intro-section-with-dropdown-navigation-main)
   - [Newbie](#newbie)
     - [NFT Preview Card Component Main](#nft-preview-card-component-main)
     - [QR Code Component Main](#qr-code-component-main)
@@ -79,6 +80,11 @@ To see browse the gallery of projects, please click the link below.
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/huddle-landing-page-with-curved-sections-master)
 - [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/huddle-landing-page-with-curved-sections-master/index.html)
+
+### Intro Section With Dropdown Navigation Main
+
+- [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/intro-section-with-dropdown-navigation-main)
+- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/intro-section-with-dropdown-navigation-main/index.html)
 
 ## Newbie
 
