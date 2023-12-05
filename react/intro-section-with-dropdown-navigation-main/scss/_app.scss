@@ -7,7 +7,8 @@
   text-align: center;
 
   &__banner {
-    background: $white url("images/image-hero-mobile.png") no-repeat left top;
+    background: $almost-white url("images/image-hero-mobile.png") no-repeat left
+      top;
     background-size: cover;
     width: 100%;
     height: 17.5rem;
@@ -61,7 +62,8 @@
     justify-content: center;
 
     &__banner {
-      background: $white url("images/image-hero-desktop.png") no-repeat center;
+      background: $almost-white url("images/image-hero-desktop.png") no-repeat
+        center;
       background-size: contain;
       flex-grow: 0.5;
       height: 40rem;
