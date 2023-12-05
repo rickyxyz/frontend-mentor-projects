@@ -29,7 +29,7 @@ button,
 p,
 body {
   font-family: "Epilogue", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: $medium-gray;
 }
 
@@ -38,5 +38,29 @@ body {
   text-align: center;
   a {
     color: hsl(228, 45%, 44%);
+  }
+}
+
+.button {
+  &-outline {
+    border: 1px solid $medium-gray;
+    padding: 0.75rem;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: $breakpoint) {
+  h1,
+  h2,
+  h3,
+  a,
+  button,
+  p,
+  body {
+    font-family: "Epilogue", sans-serif;
+    font-size: 18px;
+    color: $medium-gray;
   }
 }
