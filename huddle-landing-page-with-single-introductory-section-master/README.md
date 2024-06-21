@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with single introductory section solution
 
-This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -34,7 +34,7 @@ result on mobile device
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/huddle-landing-page-with-single-introductory-section-master/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/huddle-landing-page-with-single-introductory-section-master/index.html)
 
 ## My process
 
@@ -54,7 +54,7 @@ I don't feel I learned anything major from this challenge. However, a small thin
 /* chaining :hover with child element */
 nav li:hover svg,
 nav li:active svg {
-    fill: var(--soft-magenta);
+  fill: var(--soft-magenta);
 }
 ```
 
@@ -66,5 +66,5 @@ This challenge do make me realize I need to practice more on my general frond-en
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

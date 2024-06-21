@@ -1,6 +1,6 @@
 # Frontend Mentor - Four card feature section solution
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -35,7 +35,7 @@ result on mobile screen
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/four-card-feature-section-master)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/four-card-feature-section-master/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/four-card-feature-section-master/index.html)
 
 ## My process
 
@@ -57,23 +57,22 @@ The grid section for the cards.
 ```css
 /* the code used for grid */
 .wrapper {
-    justify-content: center;
-    justify-items: center;
-    display: grid;
-    gap: 3.6vh;
+  justify-content: center;
+  justify-items: center;
+  display: grid;
+  gap: 3.6vh;
 }
 
 @media screen and (min-width: 1200px) {
-    ...
-        .wrapper {
-        margin-top: -5vh;
-        grid-template-areas: "l mt r" "l mb r";
-    }
-    ...
+  ... .wrapper {
+    margin-top: -5vh;
+    grid-template-areas: "l mt r" "l mb r";
+  }
+  ...;
 }
 ```
 
-I think the card section turned out pretty well, but there is another problem I faced, that I still couldn't solve. So, the result doesn't look so close to the design. 
+I think the card section turned out pretty well, but there is another problem I faced, that I still couldn't solve. So, the result doesn't look so close to the design.
 
 ![flex gap problem](./screenshot/four-card-feature-section-flex-gap.png)
 gap issue with flexbox
@@ -86,5 +85,5 @@ I would like to revisit this challenge once more in the future, once I have lear
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

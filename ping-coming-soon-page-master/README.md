@@ -21,8 +21,8 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Submit their email address using an `input` field
 - Receive an error message when the `form` is submitted if:
-	- The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"*
-	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
+  - The `input` field is empty. The message for this error should say _"Whoops! It looks like you forgot to add your email"_
+  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
 
 ### Screenshot
 
@@ -39,7 +39,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/ping-coming-soon-page-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/ping-coming-soon-page-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/ping-coming-soon-page-master/index.html)
 
 ## My process
 

@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -33,7 +33,7 @@ screenshot on mobile
 ### Links
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/profile-card-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/profile-card-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/profile-card-component-main/index.html)
 
 ## My process
 
@@ -67,7 +67,7 @@ I think, I still need to work out how to structure the HTML better and improve h
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)
 
 ## Acknowledgments

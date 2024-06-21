@@ -38,7 +38,7 @@ Interactive
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/interactive-card-details-form-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/interactive-card-details-form-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/interactive-card-details-form-main/index.html)
 
 ## My process
 
@@ -66,5 +66,5 @@ I hope to improve my form validation techniques, be better at using absolutely p
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

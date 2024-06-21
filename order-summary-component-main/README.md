@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -31,18 +31,18 @@ Users should be able to:
 ### Screenshot
 
 ![screenshot of solution on large screen](./screenshot/large-screen-screenshot.png)  
-Large screen (1440px x 900px)  
+Large screen (1440px x 900px)
 
 ![screenshot of active state](./screenshot/active-screenshot.png)  
-Active state 
+Active state
 
 ![screenshot of solution on small screen](./screenshot/small-screen-screenshot.png)  
-Small screen (375px x 667px)  
+Small screen (375px x 667px)
 
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/order-summary-component-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/order-summary-component-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/order-summary-component-main/index.html)
 
 ## My process
 
@@ -54,7 +54,7 @@ Small screen (375px x 667px)
 
 ### What I learned
 
-With this challenge the first thing I noticed and learned is how to use SVG to make a divider in the background. 
+With this challenge the first thing I noticed and learned is how to use SVG to make a divider in the background.
 
 ![background with divider screenshot](./screenshot/divider.png)
 the divider for the background
@@ -65,25 +65,25 @@ But then after some tinkering, I found out I can just set the SVG as a backgroun
 ```css
 /* initial approach */
 body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100vw;
-    z-index: -1;
-    background: url('./images/pattern-background-desktop.svg');
-    background-repeat: repeat-x;
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+  background: url("./images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
 }
-``` 
+```
 
 ```css
 /* second approach */
 body {
-    height: 100vh;
-    
-    background: url('./images/pattern-background-desktop.svg');
-    background-repeat: repeat-x;
-    ...
+  height: 100vh;
+
+  background: url("./images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  ...;
 }
 ```
 
@@ -111,16 +111,16 @@ Another hiccup I encountered during this challenge is how to pad items within a 
 
 Ultimately I decided to use the second approach, because I think it react better to different screen sizes.
 
-
 ### Continued development
 
 After finishing this challenge, I think I need to find out how other people do certain stuff, like making odd-shaped divider or determining how to pad item; So, I can figure out what are the common approaches to stuff.
 
 ### Useful resources
+
 - [SVG background section divider](https://generatepress.com/forums/topic/svg-background-section-divider/) - This post helped me figure out the initial approach to making odd shaped divider.
 - [CSS Tricks non rectangular headers](https://css-tricks.com/creating-non-rectangular-headers/) - This article helped me figure out I can just use the SVG as background image on the body directly.
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

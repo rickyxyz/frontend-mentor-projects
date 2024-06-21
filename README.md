@@ -4,7 +4,7 @@ Hello, welcome to my Frontend Mentor Projects repository.
 To see links to individual solutions, please browse the [Table of Contents](#table-of-contents) below.
 To see browse the gallery of projects, please click the link below.
 
-👉 [interactive solutions gallery](https://rickyxyz.github.io/frontendmentor-projects/) 👈
+👉 [interactive solutions gallery](https://rickyxyz.dev/frontendmentor-projects/) 👈
 
 ## Table of Contents
 
@@ -44,136 +44,136 @@ To see browse the gallery of projects, please click the link below.
 ### Newsletter Sign Up With Success Message Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/newsletter-sign-up-with-success-message-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/newsletter-sign-up-with-success-message-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/newsletter-sign-up-with-success-message-main/index.html)
 
 ### Age Calculator App Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/age-calculator-app-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/age-calculator-app-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/age-calculator-app-main/index.html)
 
 ### News Homepage Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/news-homepage-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/news-homepage-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/news-homepage-main/index.html)
 
 ### Notifications Page Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/notifications-page-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/notifications-page-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/notifications-page-main/index.html)
 
 ### Interactive Card Details Form Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/interactive-card-details-form-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/interactive-card-details-form-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/interactive-card-details-form-main/index.html)
 
 ### Clipboard Landing Page Master
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/clipboard-landing-page-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/clipboard-landing-page-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/clipboard-landing-page-master/index.html)
 
 ### Expenses Chart Component Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/expenses-chart-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/expenses-chart-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/expenses-chart-component-main/index.html)
 
 ### Huddle Landing Page With Curved Sections Master
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/huddle-landing-page-with-curved-sections-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/huddle-landing-page-with-curved-sections-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/huddle-landing-page-with-curved-sections-master/index.html)
 
 ### Intro Section With Dropdown Navigation Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/intro-section-with-dropdown-navigation-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/intro-section-with-dropdown-navigation-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/intro-section-with-dropdown-navigation-main/index.html)
 
 ## Newbie
 
 ### NFT Preview Card Component Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/nft-preview-card-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/nft-preview-card-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/nft-preview-card-component-main/index.html)
 
 ### QR Code Component Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/qr-code-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/qr-code-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/qr-code-component-main/index.html)
 
 ### Order Summary Component Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/order-summary-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/order-summary-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/order-summary-component-main/index.html)
 
 ### Stats Preview Card Component
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/stats-preview-card-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/stats-preview-card-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/stats-preview-card-component-main/index.html)
 
 ### 3-column Preview Card Component
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/3-column-preview-card-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/3-column-preview-card-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/3-column-preview-card-component-main/index.html)
 
 ### Profile Card Component Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/profile-card-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/profile-card-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/profile-card-component-main/index.html)
 
 ### Social Proof Section
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/social-proof-section)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/social-proof-section/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/social-proof-section/index.html)
 
 ### Four Card Feature Section
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/four-card-feature-section-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/four-card-feature-section-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/four-card-feature-section-master/index.html)
 
 ### Single Price Grid Component
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/single-price-grid-component-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/single-price-grid-component-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/single-price-grid-component-master/index.html)
 
 ### Huddle Landing Page with Single Introductory Section
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/huddle-landing-page-with-single-introductory-section-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/huddle-landing-page-with-single-introductory-section-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/huddle-landing-page-with-single-introductory-section-master/index.html)
 
 ### Interactive Rating Component
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/interactive-rating-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/interactive-rating-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/interactive-rating-component-main/index.html)
 
 ### FAQ Accordion Card
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/faq-accordion-card-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/faq-accordion-card-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/faq-accordion-card-main/index.html)
 
 ### Article Preview Component
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/article-preview-component-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/article-preview-component-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/article-preview-component-master/index.html)
 
 ### Base Apparel Coming Soon
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/base-apparel-coming-soon-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/base-apparel-coming-soon-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/base-apparel-coming-soon-master/index.html)
 
 ### Product Preview Card Component
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/product-preview-card-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/product-preview-card-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/product-preview-card-component-main/index.html)
 
 ### Intro Component With Sign-Up Form
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/intro-component-with-signup-form-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/intro-component-with-signup-form-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/intro-component-with-signup-form-master/index.html)
 
 ### Ping Single Column Coming Soon Page
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/ping-coming-soon-page-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/ping-coming-soon-page-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/ping-coming-soon-page-master/index.html)
 
 ### Results Summary Component Main
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/results-summary-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/results-summary-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/results-summary-component-main/index.html)

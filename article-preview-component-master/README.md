@@ -1,6 +1,6 @@
 # Frontend Mentor - Article preview component solution
 
-This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/article-preview-component-master)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/article-preview-component-master/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/article-preview-component-master/index.html)
 
 ## My process
 
@@ -55,10 +55,10 @@ This challenge was quite straightforward, the only problem I faced is how to str
 
 ```css
 .share-section {
-    display: none;
-    position: absolute;
-    z-index: 2;
-    ...
+  display: none;
+  position: absolute;
+  z-index: 2;
+  ...;
 }
 ```
 
@@ -72,5 +72,5 @@ I think I need to polish my naming convention and HTML semantics more. In the fu
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://rickyxyz.dev)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

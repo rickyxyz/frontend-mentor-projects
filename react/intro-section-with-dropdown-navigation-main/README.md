@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/intro-section-with-dropdown-navigation-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/intro-section-with-dropdown-navigation-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/intro-section-with-dropdown-navigation-main/index.html)
 
 ## My process
 
@@ -55,5 +55,5 @@ I'm going to use Tailwind next
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

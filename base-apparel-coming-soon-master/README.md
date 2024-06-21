@@ -38,7 +38,7 @@ Mobile screenshot
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/base-apparel-coming-soon-master)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/base-apparel-coming-soon-master/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/base-apparel-coming-soon-master/index.html)
 
 ## My process
 
@@ -52,5 +52,5 @@ Mobile screenshot
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

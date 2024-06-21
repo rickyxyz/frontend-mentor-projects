@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/stats-preview-card-component-main/tree/main/order-summary-component-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/stats-preview-card-component-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/stats-preview-card-component-main/index.html)
 
 ## My process
 
@@ -63,12 +63,12 @@ The simpler issue is to give the image a purple color overlay. My first idea is 
 
 ```css
 /* pseudo-element I used to overlay the image */
-.card__image::after{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: var(--filter-purple);
+.card__image::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--filter-purple);
 }
 ```
 
@@ -80,8 +80,8 @@ The simplest solution I found is to just to change at what size the layout chang
 
 ```css
 @media screen and (max-width: 1010px) {
-    /* switch to mobile layout */
-    ...
+  /* switch to mobile layout */
+  ...;
 }
 ```
 
@@ -95,5 +95,5 @@ Until the end of this challenge, I still have not figured out how to take care o
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

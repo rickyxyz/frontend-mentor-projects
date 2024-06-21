@@ -1,6 +1,6 @@
 # Frontend Mentor - 3-column preview card component solution
 
-This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -38,7 +38,7 @@ Screenshot from mobile device (landscape)
 ### Links
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/3-column-preview-card-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/3-column-preview-card-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/3-column-preview-card-component-main/index.html)
 
 ## My process
 
@@ -70,28 +70,28 @@ Another hiccups I faced, is how to make the elements responsive. It took quite a
 /* me trying to make elements more responsive */
 
 .card__section > h1 {
-    /* ... */
-    margin-top: min(50px, 15%);
-    flex-grow: 1;
-    /* ... */
+  /* ... */
+  margin-top: min(50px, 15%);
+  flex-grow: 1;
+  /* ... */
 }
 
 .card__section > p {
-    line-height: 1.6rem;
-    flex-grow: 3;
+  line-height: 1.6rem;
+  flex-grow: 3;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
+  /* ... */
+  .card__section {
     /* ... */
-    .card__section {
-        /* ... */
-        padding: min(50px, 15%);
-        /* ... */
-    }
+    padding: min(50px, 15%);
+    /* ... */
+  }
 
-    .card__section p {
-        flex-grow: 1;
-    }
+  .card__section p {
+    flex-grow: 1;
+  }
 }
 ```
 
@@ -108,5 +108,5 @@ I also still need to speed up my process of figuring out how to make element mor
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)
