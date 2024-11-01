@@ -84,7 +84,7 @@ body {
 }
 .card__header {
   grid-area: header;
-  background-image: url(https://rickyxyz.github.io/frontendmentor-projects/newsletter-sign-up-with-success-message-main/assets/illustration-sign-up-mobile-5K71alP2.svg);
+  background-image: url(https://rickyxyz.dev/frontendmentor-projects/newsletter-sign-up-with-success-message-main/assets/illustration-sign-up-mobile-5K71alP2.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -208,7 +208,7 @@ body {
     box-shadow: -19px 14px 42px 17px #2424247a;
   }
   .card__header {
-    background-image: url(https://rickyxyz.github.io/frontendmentor-projects/newsletter-sign-up-with-success-message-main/assets/illustration-sign-up-desktop-19tQ5Mir.svg);
+    background-image: url(https://rickyxyz.dev/frontendmentor-projects/newsletter-sign-up-with-success-message-main/assets/illustration-sign-up-desktop-19tQ5Mir.svg);
     margin: 1.5rem;
     border-radius: 10px;
     max-height: clamp(32rem, 98%, 37rem);

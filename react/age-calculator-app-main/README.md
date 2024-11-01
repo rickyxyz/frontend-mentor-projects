@@ -43,7 +43,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/age-calculator-app-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/age-calculator-app-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/age-calculator-app-main/index.html)
 
 ## My process
 
@@ -73,5 +73,5 @@ In the future, I would like to try more form validation methods and learn more a
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/clipboard-landing-page-master)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/clipboard-landing-page-master/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/clipboard-landing-page-master/index.html)
 
 ## My process
 
@@ -55,5 +55,5 @@ After working on this project, I'm thinking of trying tailwind CSS.
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

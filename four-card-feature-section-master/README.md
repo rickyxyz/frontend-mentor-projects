@@ -35,7 +35,7 @@ result on mobile screen
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/four-card-feature-section-master)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/four-card-feature-section-master/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/four-card-feature-section-master/index.html)
 
 ## My process
 
@@ -85,5 +85,5 @@ I would like to revisit this challenge once more in the future, once I have lear
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

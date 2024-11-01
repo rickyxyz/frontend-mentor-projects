@@ -34,7 +34,7 @@ result on mobile device
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/huddle-landing-page-with-single-introductory-section-master/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/huddle-landing-page-with-single-introductory-section-master/index.html)
 
 ## My process
 
@@ -66,5 +66,5 @@ This challenge do make me realize I need to practice more on my general frond-en
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

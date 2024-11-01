@@ -38,7 +38,7 @@ Screenshot from mobile device (landscape)
 ### Links
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/3-column-preview-card-component-main)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/3-column-preview-card-component-main/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/3-column-preview-card-component-main/index.html)
 
 ## My process
 
@@ -108,5 +108,5 @@ I also still need to speed up my process of figuring out how to make element mor
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

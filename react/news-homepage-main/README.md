@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/news-homepage-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/news-homepage-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/news-homepage-main/index.html)
 
 ## My process
 
@@ -68,5 +68,5 @@ I still have a lot to learn on how to implement responsive layout that works and
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

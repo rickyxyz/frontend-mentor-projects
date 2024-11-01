@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/faq-accordion-card-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/faq-accordion-card-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/faq-accordion-card-main/index.html)
 
 ## My process
 
@@ -90,5 +90,5 @@ Looking at my SCSS again, I think I could make it better using mixins. However, 
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rikcyxyz](https://www.frontendmentor.io/profile/rickyxyz)

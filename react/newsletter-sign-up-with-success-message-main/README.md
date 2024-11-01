@@ -47,7 +47,7 @@ Mobile active and error state
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/newsletter-sign-up-with-success-message-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/newsletter-sign-up-with-success-message-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/newsletter-sign-up-with-success-message-main/index.html)
 
 ## My process
 
@@ -87,5 +87,5 @@ I am still uncomfortable setting up a react project from scratch, I hope to impr
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

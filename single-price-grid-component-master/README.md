@@ -35,7 +35,7 @@ result on mobile screen
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/single-price-grid-component-master)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/single-price-grid-component-master/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/single-price-grid-component-master/index.html)
 
 ## My process
 
@@ -61,5 +61,5 @@ This project made me realize, that semantics HTML and accessibility is a big top
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

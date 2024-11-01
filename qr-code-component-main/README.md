@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/qr-code-component-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/qr-code-component-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/qr-code-component-main/index.html)
 
 ## My process
 
@@ -39,5 +39,5 @@ In the future, I want to learn more on how to improve my HTML structure and clas
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

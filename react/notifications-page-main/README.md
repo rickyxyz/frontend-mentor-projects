@@ -39,7 +39,7 @@ Read animation
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/react/notifications-page-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/notifications-page-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/notifications-page-main/index.html)
 
 ## My process
 
@@ -102,5 +102,5 @@ I still plan to learn more about animation with JavaScript.
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

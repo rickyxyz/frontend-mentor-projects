@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/stats-preview-card-component-main/tree/main/order-summary-component-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/stats-preview-card-component-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/stats-preview-card-component-main/index.html)
 
 ## My process
 
@@ -95,5 +95,5 @@ Until the end of this challenge, I still have not figured out how to take care o
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

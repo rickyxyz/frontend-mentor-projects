@@ -45,7 +45,7 @@ screenshot on mobile device
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/interactive-rating-component-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/interactive-rating-component-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/interactive-rating-component-main/index.html)
 
 ## My process
 
@@ -76,5 +76,5 @@ I would like to keep using SCSS in my future project to be proficient with it. I
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

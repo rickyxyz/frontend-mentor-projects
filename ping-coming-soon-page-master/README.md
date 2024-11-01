@@ -39,7 +39,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/ping-coming-soon-page-master)
-- [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/ping-coming-soon-page-master/index.html)
+- [Link to live site](https://rickyxyz.dev/frontendmentor-projects/ping-coming-soon-page-master/index.html)
 
 ## My process
 

@@ -34,7 +34,7 @@ result on mobile (below 1000px in width)
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/social-proof-section)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/social-proof-section/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/social-proof-section/index.html)
 
 ## My process
 
@@ -64,5 +64,5 @@ Firstly, I would like to be better at CSS grids. I don't know how many times I n
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

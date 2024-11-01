@@ -42,7 +42,7 @@ Small screen (375px x 667px)
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/order-summary-component-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/order-summary-component-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/order-summary-component-main/index.html)
 
 ## My process
 
@@ -122,5 +122,5 @@ After finishing this challenge, I think I need to find out how other people do c
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

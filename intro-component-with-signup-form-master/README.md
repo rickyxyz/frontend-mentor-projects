@@ -42,7 +42,7 @@ mobile viewport
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/intro-component-with-signup-form-master)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/intro-component-with-signup-form-master/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/intro-component-with-signup-form-master/index.html)
 
 ## My process
 

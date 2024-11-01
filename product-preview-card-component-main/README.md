@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/product-preview-card-component-main)
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/product-preview-card-component-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/product-preview-card-component-main/index.html)
 
 ## My process
 
@@ -44,5 +44,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://www.rickyxyz.github.io)
+- Website - [rickyxyz.dev](https://www.rickyxyz.github.io)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)

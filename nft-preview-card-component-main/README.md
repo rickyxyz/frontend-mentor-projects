@@ -42,7 +42,7 @@ fig 2. Result viewed from small screen
 - # Solution URL: [Link to solution repository](https://github.com/rickyxyz/frontendmentor-projects/tree/main/nft-preview-card-component-main)
 - Solution URL: [Link to solution URL](https://github.com/rickyxyz/frontendmentor-projects/tree/main/nft-preview-card-component-main)
   > > > > > > > main
-- Live Site URL: [Link to live site](https://rickyxyz.github.io/frontendmentor-projects/nft-preview-card-component-main/index.html)
+- Live Site URL: [Link to live site](https://rickyxyz.dev/frontendmentor-projects/nft-preview-card-component-main/index.html)
 
 ## My process
 
@@ -93,7 +93,7 @@ From this project, I think I still need to learn how to use semantic tags and re
 
 ## Author
 
-- Website - [rickyxyz.github.io](https://rickyxyz.github.io/)
+- Website - [rickyxyz.dev](https://rickyxyz.dev/)
 - Frontend Mentor - [@rickyxyz](https://www.frontendmentor.io/profile/rickyxyz)
 
 ## Acknowledgments
